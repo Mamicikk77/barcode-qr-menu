@@ -187,18 +187,15 @@
     if (s.address) info.push(`<div class="info-row">${icon.pin}<div><small>${u().address}</small><a href="https://maps.google.com/?q=${encodeURIComponent(s.address)}" target="_blank" rel="noopener">${esc(s.address)}</a></div></div>`);
 
     app.innerHTML = `<div class="view ${dir === 'back' ? 'back' : ''}">
-      <header class="hero ${s.hero ? 'has-photo' : ''}" ${s.hero ? `style="--hero:url('${esc(absUrl(s.hero))}')"` : ''}>
-        <div class="hero-sky"></div><div class="hero-sun"></div><div class="hero-glint"></div>
-        <div class="hero-top"><button class="hero-back ripple" data-action="welcome" aria-label="${u().back}">${icon.back}</button>${langHtml()}</div>
-        <div class="hero-brand">
-          <h1>${esc(s.name)}</h1>
-          <div class="sub">${esc(tx(s.subtitle))}</div>
-          ${tx(s.welcome) ? `<p class="welcome">${esc(tx(s.welcome))}</p>` : ''}
+      <header class="menu-top">
+        <div class="mt-row">
+          <button class="icon-btn ripple" data-action="welcome" aria-label="${u().back}">${icon.back}</button>
+          <div class="mt-brand"><b>${esc(s.name)}</b><small>${esc(tx(s.subtitle))}</small></div>
+          ${langHtml()}
         </div>
-        ${WAVES}
+        <button class="search-fake ripple" data-action="search">${icon.search}<span>${u().search}</span></button>
       </header>
       <main class="home-body">
-        <button class="search-fake ripple" data-action="search">${icon.search}<span>${u().search}</span></button>
         <div class="groups" role="tablist">
           ${groups.map(g => `<button class="group-tab" role="tab" data-group="${esc(g.id)}" aria-selected="${g.id === activeGroup}">${esc(tx(g.name))}</button>`).join('')}
           <span class="group-ind" aria-hidden="true"><svg viewBox="0 0 40 8" preserveAspectRatio="none"><path d="M1 4 Q5.5 0 10 4 T19 4 T28 4 T39 4"/></svg></span>

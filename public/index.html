@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Barcode Beach Menü</title>
+  <meta name="description" content="Barcode Beach & Restaurant — Boğazkent, Belek. Dijital QR menü.">
+  <meta name="theme-color" content="#0a3a52">
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/theme.css?v=2">
+  <link rel="stylesheet" href="assets/menu.css?v=2">
+</head>
+<body>
+  <div id="app" class="app" aria-live="polite">
+    <div class="boot">
+      <svg class="boot-wave" viewBox="0 0 120 30" aria-hidden="true"><path d="M0 15 Q15 0 30 15 T60 15 T90 15 T120 15" /></svg>
+      <span>Barcode</span>
+    </div>
+  </div>
+
+  <!-- Ürün detayı / arama / alerjen sayfaları -->
+  <div id="sheet" class="sheet" hidden>
+    <div class="sheet-backdrop" data-close></div>
+    <div class="sheet-panel" role="dialog" aria-modal="true">
+      <div class="sheet-grip" data-grip><span></span></div>
+      <div class="sheet-body"></div>
+    </div>
+  </div>
+
+  <script src="assets/menu.js?v=2"></script>
+</body>
+</html>

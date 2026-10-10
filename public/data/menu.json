@@ -1,0 +1,5671 @@
+{
+  "settings": {
+    "name": "Barcode",
+    "subtitle": {
+      "tr": "Beach & Restaurant",
+      "en": "Beach & Restaurant",
+      "ru": "Beach & Restaurant"
+    },
+    "location": {
+      "tr": "Boğazkent · Belek / Antalya",
+      "en": "Boğazkent · Belek / Antalya",
+      "ru": "Богазкент · Белек / Анталья"
+    },
+    "welcome": {
+      "tr": "Akdeniz’in mavisine karşı, ayaklarınız kumda.",
+      "en": "Toes in the sand, eyes on the Mediterranean blue.",
+      "ru": "Песок под ногами, синее Средиземное море перед глазами."
+    },
+    "hero": "",
+    "currency": "₺",
+    "phone": "",
+    "wifiName": "",
+    "wifiPass": "",
+    "instagram": "barcodebeachbogazkent",
+    "address": "Boğazkent, Serik / Antalya",
+    "note": {
+      "tr": "Alerjen bilgileri bilgilendirme amaçlıdır; mutfağımızda tüm alerjenler işlenmektedir. Lütfen siparişten önce garsonunuza alerjinizi bildiriniz. Fiyatlarımıza KDV dahildir.",
+      "en": "Allergen information is for guidance only; all allergens are handled in our kitchen. Please inform your waiter about any allergy before ordering. Prices include VAT.",
+      "ru": "Информация об аллергенах носит справочный характер; на нашей кухне используются все аллергены. Пожалуйста, сообщите официанту о вашей аллергии до заказа. Цены включают НДС."
+    },
+    "whatsapp": "905066092261",
+    "mapsUrl": "https://maps.app.goo.gl/i3M2bUgZC9LvrJLF9",
+    "welcomeBg": "uploads/welcome-bg.webp"
+  },
+  "groups": [
+    {
+      "id": "food",
+      "name": {
+        "tr": "Yemekler",
+        "en": "Foods",
+        "ru": "Блюда"
+      },
+      "img": "uploads/6029a6e46df5f5e245efd3c777b02c07.webp"
+    },
+    {
+      "id": "cold",
+      "name": {
+        "tr": "Alkolsüz İçecekler",
+        "en": "Non-Alcoholic",
+        "ru": "Безалкогольные напитки"
+      },
+      "img": "uploads/04dbce99c36a5c20b5a74858dc69ae95.webp"
+    },
+    {
+      "id": "bar",
+      "name": {
+        "tr": "Alkollü İçecekler",
+        "en": "Alcoholic Beverages",
+        "ru": "Алкогольные напитки"
+      },
+      "img": "uploads/8dad1790f0e5926c5a13b8b90aad4c29.webp"
+    },
+    {
+      "id": "enjoy",
+      "name": {
+        "tr": "Keyif Menüsü",
+        "en": "Enjoy Menu",
+        "ru": "Меню удовольствий"
+      },
+      "img": "uploads/297e93f8bbda3dec847e7fe3f2ed3c2a.webp"
+    }
+  ],
+  "categories": [
+    {
+      "id": "kahvalti",
+      "group": "food",
+      "name": {
+        "tr": "Kahvaltı",
+        "en": "Breakfast",
+        "ru": "Завтраки"
+      },
+      "img": "uploads/318008dcffd637971c005237d7c90439.webp",
+      "active": true
+    },
+    {
+      "id": "tost",
+      "group": "food",
+      "name": {
+        "tr": "Sandviç & Tost",
+        "en": "Sandwiches & Toasts",
+        "ru": "Сэндвичи и тосты"
+      },
+      "img": "uploads/a93f2b159b9e4a4fd80382f6352a80c2.webp",
+      "active": true
+    },
+    {
+      "id": "ara-sicak",
+      "group": "food",
+      "name": {
+        "tr": "Ara Sıcaklar",
+        "en": "Intermediate Meals",
+        "ru": "Горячие закуски"
+      },
+      "img": "uploads/772f94fdc211aee20c3ac1fbe9109054.webp",
+      "active": true
+    },
+    {
+      "id": "salata",
+      "group": "food",
+      "name": {
+        "tr": "Salatalar",
+        "en": "Salads",
+        "ru": "Салаты"
+      },
+      "img": "uploads/50b2a10dc0dbd8c5c08dbc32dc34af72.webp",
+      "active": true
+    },
+    {
+      "id": "meze",
+      "group": "food",
+      "name": {
+        "tr": "Mezeler",
+        "en": "Appetizers",
+        "ru": "Мезе (закуски)"
+      },
+      "img": "",
+      "active": true
+    },
+    {
+      "id": "burger",
+      "group": "food",
+      "name": {
+        "tr": "Hamburger",
+        "en": "Burgers",
+        "ru": "Бургеры"
+      },
+      "img": "uploads/2a63e74f39b7b68f4b5f8101ff88da70.webp",
+      "active": true
+    },
+    {
+      "id": "makarna",
+      "group": "food",
+      "name": {
+        "tr": "Makarnalar",
+        "en": "Pastas",
+        "ru": "Паста"
+      },
+      "img": "uploads/bcdbb184ee5bb7cc5ba41de2887b8c71.webp",
+      "active": true
+    },
+    {
+      "id": "pizza",
+      "group": "food",
+      "name": {
+        "tr": "Pizza",
+        "en": "Pizza",
+        "ru": "Пицца"
+      },
+      "img": "uploads/fde05040f67e0f8fbd574056ec12c758.webp",
+      "active": true
+    },
+    {
+      "id": "izgara",
+      "group": "food",
+      "name": {
+        "tr": "Izgaralar",
+        "en": "Grilled Dishes",
+        "ru": "Блюда на гриле"
+      },
+      "img": "uploads/6029a6e46df5f5e245efd3c777b02c07.webp",
+      "active": true
+    },
+    {
+      "id": "tavuk",
+      "group": "food",
+      "name": {
+        "tr": "Tavuk Special Menüler",
+        "en": "Chicken Specials",
+        "ru": "Блюда из курицы"
+      },
+      "img": "uploads/3b4f587ab1cef17f30e01c7c59068bf6.webp",
+      "active": true
+    },
+    {
+      "id": "deniz",
+      "group": "food",
+      "name": {
+        "tr": "Deniz Ürünleri",
+        "en": "Sea Foods",
+        "ru": "Морепродукты"
+      },
+      "img": "uploads/6782d03ba325da7e1936cee088660b66.webp",
+      "active": true
+    },
+    {
+      "id": "moktail",
+      "group": "cold",
+      "name": {
+        "tr": "Alkolsüz Kokteyller",
+        "en": "Mocktails",
+        "ru": "Безалкогольные коктейли"
+      },
+      "img": "uploads/a867a8a04ff633b6daaa494e2b4345c2.webp",
+      "active": true
+    },
+    {
+      "id": "frozen",
+      "group": "cold",
+      "name": {
+        "tr": "Frozen · Frappe · Milkshake",
+        "en": "Frozen · Frappe · Milkshake",
+        "ru": "Фрозен · Фраппе · Милкшейк"
+      },
+      "img": "uploads/989d588d309467a54d4f4b136958b8b8.webp",
+      "active": true
+    },
+    {
+      "id": "mesrubat",
+      "group": "cold",
+      "name": {
+        "tr": "Meşrubatlar",
+        "en": "Soft Drinks",
+        "ru": "Прохладительные напитки"
+      },
+      "img": "uploads/8fd1042da6386a5b963aac1f25638e27.webp",
+      "active": true
+    },
+    {
+      "id": "sicak",
+      "group": "cold",
+      "name": {
+        "tr": "Sıcak İçecekler",
+        "en": "Hot Beverages",
+        "ru": "Горячие напитки"
+      },
+      "img": "uploads/2cf26206fd794ed3ba3478f1d0a368db.webp",
+      "active": true
+    },
+    {
+      "id": "kokteyl",
+      "group": "bar",
+      "name": {
+        "tr": "Kokteyller",
+        "en": "Cocktails",
+        "ru": "Коктейли"
+      },
+      "img": "uploads/8dad1790f0e5926c5a13b8b90aad4c29.webp",
+      "active": true
+    },
+    {
+      "id": "raki",
+      "group": "bar",
+      "name": {
+        "tr": "Rakı",
+        "en": "Rakı",
+        "ru": "Ракы"
+      },
+      "img": "uploads/472a915769a110ee0f2cbcdc33610eb7.webp",
+      "active": true
+    },
+    {
+      "id": "bira",
+      "group": "bar",
+      "name": {
+        "tr": "Biralar",
+        "en": "Beers",
+        "ru": "Пиво"
+      },
+      "img": "uploads/0bde348ebca793e104eed5a4861621fa.webp",
+      "active": true
+    },
+    {
+      "id": "sarap",
+      "group": "bar",
+      "name": {
+        "tr": "Şaraplar",
+        "en": "Wines",
+        "ru": "Вина"
+      },
+      "img": "uploads/4af5b721459514cabdbed04e90c766a4.webp",
+      "active": true
+    },
+    {
+      "id": "cin",
+      "group": "bar",
+      "name": {
+        "tr": "Cin",
+        "en": "Gin",
+        "ru": "Джин"
+      },
+      "img": "uploads/262626f92bdc94103c6458d53aac70ba.webp",
+      "active": true
+    },
+    {
+      "id": "votka",
+      "group": "bar",
+      "name": {
+        "tr": "Votka",
+        "en": "Vodka",
+        "ru": "Водка"
+      },
+      "img": "uploads/fefe326c3f78b4417fa7e8ac4e614b62.webp",
+      "active": true
+    },
+    {
+      "id": "viski",
+      "group": "bar",
+      "name": {
+        "tr": "Viski",
+        "en": "Whiskey",
+        "ru": "Виски"
+      },
+      "img": "uploads/fed8eb5e7a21d96748fc58dce74833c5.webp",
+      "active": true
+    },
+    {
+      "id": "tekila",
+      "group": "bar",
+      "name": {
+        "tr": "Tekila & Shotlar",
+        "en": "Tequila & Shots",
+        "ru": "Текила и шоты"
+      },
+      "img": "uploads/da75f7ac2ee32e736c262b9d66b4e438.webp",
+      "active": true
+    },
+    {
+      "id": "rom",
+      "group": "bar",
+      "name": {
+        "tr": "Rom",
+        "en": "Rum",
+        "ru": "Ром"
+      },
+      "img": "uploads/08f1404ffe3b0f646b1723d05a1726d3.webp",
+      "active": true
+    },
+    {
+      "id": "tatli",
+      "group": "enjoy",
+      "name": {
+        "tr": "Tatlılar",
+        "en": "Desserts",
+        "ru": "Десерты"
+      },
+      "img": "uploads/2d977b293ecba8ec4c64b35f3b75528a.webp",
+      "active": true
+    },
+    {
+      "id": "meyve",
+      "group": "enjoy",
+      "name": {
+        "tr": "Meyveler",
+        "en": "Fruits",
+        "ru": "Фрукты"
+      },
+      "img": "uploads/feff6507629b0d7b03bc2c6fe0ce5778.webp",
+      "active": true
+    },
+    {
+      "id": "cerez",
+      "group": "enjoy",
+      "name": {
+        "tr": "Kuruyemişler",
+        "en": "Nuts",
+        "ru": "Орехи"
+      },
+      "img": "uploads/bc7e42bb6a5d2b93468c682cb5ba846e.webp",
+      "active": true
+    },
+    {
+      "id": "nargile",
+      "group": "enjoy",
+      "name": {
+        "tr": "Nargileler",
+        "en": "Shishas",
+        "ru": "Кальяны"
+      },
+      "img": "uploads/297e93f8bbda3dec847e7fe3f2ed3c2a.webp",
+      "active": true
+    }
+  ],
+  "products": [
+    {
+      "id": "kahvalti-1",
+      "cat": "kahvalti",
+      "name": {
+        "tr": "Serpme Kahvaltı",
+        "en": "Mixed Breakfast",
+        "ru": "Турецкий завтрак «Серпме»"
+      },
+      "desc": {
+        "tr": "2 kişiliktir. Peynir, zeytin, domates, salatalık, yeşillik, salam, sosis, sucuk, yumurta (haşlanmış/sahanda), bal, reçel, sigara böreği, pişi, patates kızartması, ekmek, sınırsız çay. (3 kişi ve üzeri için kişi başı +650 TL)",
+        "en": "For 2 people. Cheese, olives, tomato, cucumber, greens, salami, sausage, Turkish sausage, eggs (boiled/fried), honey, jam, cheese rolls, fried dough, fries, bread and unlimited tea. (+650 TL per person for 3+ people)",
+        "ru": "На 2 персоны. Сыр, оливки, помидоры, огурцы, зелень, салями, сосиски, суджук, яйца (варёные/жареные), мёд, варенье, сигара бёрек, пиши, картофель фри, хлеб и чай без ограничений. (+650 TL с человека для компании от 3 человек)"
+      },
+      "price": 1300,
+      "variants": [],
+      "img": "uploads/318008dcffd637971c005237d7c90439.webp",
+      "allergens": [
+        "gluten",
+        "egg",
+        "milk"
+      ],
+      "tags": [
+        "chef"
+      ],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "kahvalti-2",
+      "cat": "kahvalti",
+      "name": {
+        "tr": "Kahvaltı Tabağı",
+        "en": "Breakfast Plate",
+        "ru": "Тарелка завтрака"
+      },
+      "desc": {
+        "tr": "Tek kişiliktir. Peynir, zeytin, domates, salatalık, yumurta (haşlanmış/sahanda), bal, reçel, sigara böreği, ekmek, 2 bardak çay.",
+        "en": "For 1 person. Cheese, olives, tomato, cucumber, egg (boiled/fried), honey, jam, cheese roll, bread and 2 glasses of tea.",
+        "ru": "На 1 персону. Сыр, оливки, помидоры, огурцы, яйцо (варёное/жареное), мёд, варенье, сигара бёрек, хлеб и 2 стакана чая."
+      },
+      "price": 400,
+      "variants": [],
+      "img": "uploads/1830bf813b3b117db517fc458587ba3f.webp",
+      "allergens": [
+        "gluten",
+        "egg",
+        "milk"
+      ],
+      "tags": [
+        "veg"
+      ],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "kahvalti-3",
+      "cat": "kahvalti",
+      "name": {
+        "tr": "Sahanda Yumurta",
+        "en": "Fried Eggs",
+        "ru": "Яичница"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 160,
+      "variants": [],
+      "img": "uploads/a3a6791459efece102b28dbef718ab49.webp",
+      "allergens": [
+        "egg",
+        "milk"
+      ],
+      "tags": [
+        "veg"
+      ],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "kahvalti-4",
+      "cat": "kahvalti",
+      "name": {
+        "tr": "Kavurmalı Yumurta",
+        "en": "Eggs with Roasted Meat",
+        "ru": "Яйца с кавурмой (тушёным мясом)"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 300,
+      "variants": [],
+      "img": "uploads/4a7ca6dd397c80500f0c97112146f5e6.webp",
+      "allergens": [
+        "egg"
+      ],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "kahvalti-5",
+      "cat": "kahvalti",
+      "name": {
+        "tr": "Omlet",
+        "en": "Omelette",
+        "ru": "Омлет"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 160,
+      "variants": [],
+      "img": "uploads/a3a6791459efece102b28dbef718ab49.webp",
+      "allergens": [
+        "egg",
+        "milk"
+      ],
+      "tags": [
+        "veg"
+      ],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "kahvalti-6",
+      "cat": "kahvalti",
+      "name": {
+        "tr": "Mantarlı Omlet",
+        "en": "Mushroom Omelette",
+        "ru": "Омлет с грибами"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 180,
+      "variants": [],
+      "img": "uploads/d59b4841ebec58d333d7cc910ee5651a.webp",
+      "allergens": [
+        "egg",
+        "milk"
+      ],
+      "tags": [
+        "veg"
+      ],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "kahvalti-7",
+      "cat": "kahvalti",
+      "name": {
+        "tr": "Peynirli Omlet",
+        "en": "Cheese Omelette",
+        "ru": "Омлет с сыром"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 180,
+      "variants": [],
+      "img": "uploads/ba2cc34f7b5c9fc56d0a84cd8443c6d3.webp",
+      "allergens": [
+        "egg",
+        "milk"
+      ],
+      "tags": [
+        "veg"
+      ],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "kahvalti-8",
+      "cat": "kahvalti",
+      "name": {
+        "tr": "Sucuklu Omlet",
+        "en": "Turkish Sausage Omelette",
+        "ru": "Омлет с суджуком"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 200,
+      "variants": [],
+      "img": "uploads/06478662dd12d0ce0c9406b197f450db.webp",
+      "allergens": [
+        "egg",
+        "milk"
+      ],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "kahvalti-9",
+      "cat": "kahvalti",
+      "name": {
+        "tr": "Menemen",
+        "en": "Menemen",
+        "ru": "Менемен"
+      },
+      "desc": {
+        "tr": "Domates, biber ve yumurta ile tavada pişirilir.",
+        "en": "Scrambled eggs cooked with tomatoes and peppers.",
+        "ru": "Яйца, приготовленные с помидорами и перцем."
+      },
+      "price": 200,
+      "variants": [],
+      "img": "uploads/473a64f80e28b33f700ea7f2307b466f.webp",
+      "allergens": [
+        "egg"
+      ],
+      "tags": [
+        "veg"
+      ],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "tost-1",
+      "cat": "tost",
+      "name": {
+        "tr": "Kaşarlı Tost",
+        "en": "Cheese Toast",
+        "ru": "Тост с сыром"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 200,
+      "variants": [],
+      "img": "uploads/a93f2b159b9e4a4fd80382f6352a80c2.webp",
+      "allergens": [
+        "gluten",
+        "milk"
+      ],
+      "tags": [
+        "veg"
+      ],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "tost-2",
+      "cat": "tost",
+      "name": {
+        "tr": "Sucuklu Tost",
+        "en": "Turkish Sausage Toast",
+        "ru": "Тост с суджуком"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 200,
+      "variants": [],
+      "img": "uploads/5c80b05941d7ef786f6597e0c9a4fae0.webp",
+      "allergens": [
+        "gluten",
+        "milk"
+      ],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "tost-3",
+      "cat": "tost",
+      "name": {
+        "tr": "Karışık Tost",
+        "en": "Mixed Toast",
+        "ru": "Тост ассорти"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 250,
+      "variants": [],
+      "img": "uploads/1698514ddbf2fdc06b0aa31baeaa1c61.webp",
+      "allergens": [
+        "gluten",
+        "milk"
+      ],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "tost-4",
+      "cat": "tost",
+      "name": {
+        "tr": "Kavurmalı Tost",
+        "en": "Roasted Meat Toast",
+        "ru": "Тост с кавурмой"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 300,
+      "variants": [],
+      "img": "uploads/1698514ddbf2fdc06b0aa31baeaa1c61.webp",
+      "allergens": [
+        "gluten",
+        "milk"
+      ],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "tost-5",
+      "cat": "tost",
+      "name": {
+        "tr": "Soğuk Sandviç",
+        "en": "Cold Sandwich",
+        "ru": "Холодный сэндвич"
+      },
+      "desc": {
+        "tr": "İçindekileri seçiniz: beyaz peynir, kaşar peyniri, domates, salatalık, marul, hindi füme.",
+        "en": "Choose your fillings: white cheese, kashar cheese, tomato, cucumber, lettuce, smoked turkey.",
+        "ru": "Выберите начинку: белый сыр, сыр кашар, помидор, огурец, салат, копчёная индейка."
+      },
+      "price": 250,
+      "variants": [],
+      "img": "uploads/feeb1889ae285820e4efedea566e777c.webp",
+      "allergens": [
+        "gluten",
+        "milk",
+        "mustard"
+      ],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "ara-sicak-1",
+      "cat": "ara-sicak",
+      "name": {
+        "tr": "Patates Kızartması",
+        "en": "French Fries",
+        "ru": "Картофель фри"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 300,
+      "variants": [],
+      "img": "uploads/0f8690a933036d24b5d939a80f681798.webp",
+      "allergens": [],
+      "tags": [
+        "vegan"
+      ],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "ara-sicak-2",
+      "cat": "ara-sicak",
+      "name": {
+        "tr": "Sigara Böreği",
+        "en": "Cheese Rolls",
+        "ru": "Сигара бёрек (сырные трубочки)"
+      },
+      "desc": {
+        "tr": "6 adet.",
+        "en": "6 pieces.",
+        "ru": "6 штук."
+      },
+      "price": 300,
+      "variants": [],
+      "img": "uploads/45b5d66d8880ebfcb8f969a417f81738.webp",
+      "allergens": [
+        "gluten",
+        "milk",
+        "egg"
+      ],
+      "tags": [
+        "veg"
+      ],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "ara-sicak-3",
+      "cat": "ara-sicak",
+      "name": {
+        "tr": "Bira Tabağı",
+        "en": "Beer Snacks",
+        "ru": "Закуски к пиву"
+      },
+      "desc": {
+        "tr": "2 kişilik.",
+        "en": "For 2 people.",
+        "ru": "На 2 персоны."
+      },
+      "price": 450,
+      "variants": [],
+      "img": "uploads/7a0a52ac9288f27b886ecdaf4ec534d8.webp",
+      "allergens": [
+        "gluten",
+        "milk",
+        "nuts",
+        "peanut"
+      ],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "ara-sicak-4",
+      "cat": "ara-sicak",
+      "name": {
+        "tr": "Kemiksiz Çıtır Tavuk",
+        "en": "Crispy Chicken",
+        "ru": "Хрустящая курица без костей"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 300,
+      "variants": [],
+      "img": "uploads/73b10d82048660db9c11803cf802953a.webp",
+      "allergens": [
+        "gluten",
+        "egg"
+      ],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "ara-sicak-5",
+      "cat": "ara-sicak",
+      "name": {
+        "tr": "Kalamar Tava",
+        "en": "Fried Squid",
+        "ru": "Жареные кальмары"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 550,
+      "variants": [],
+      "img": "uploads/772f94fdc211aee20c3ac1fbe9109054.webp",
+      "allergens": [
+        "gluten",
+        "mollusc",
+        "egg"
+      ],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "ara-sicak-6",
+      "cat": "ara-sicak",
+      "name": {
+        "tr": "Güveçte Tereyağlı Karides",
+        "en": "Buttered Shrimp Casserole",
+        "ru": "Креветки в сливочном масле в глиняном горшочке"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 700,
+      "variants": [],
+      "img": "uploads/8a803bc9b200f48d6d42ce73e68dd7d6.webp",
+      "allergens": [
+        "crustacean",
+        "milk"
+      ],
+      "tags": [
+        "chef"
+      ],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "ara-sicak-7",
+      "cat": "ara-sicak",
+      "name": {
+        "tr": "Ahtapot Izgara",
+        "en": "Grilled Octopus",
+        "ru": "Осьминог на гриле"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 1200,
+      "variants": [],
+      "img": "uploads/e8daf704ca45903c9b054bb5b7309baf.webp",
+      "allergens": [
+        "mollusc"
+      ],
+      "tags": [
+        "chef"
+      ],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "ara-sicak-8",
+      "cat": "ara-sicak",
+      "name": {
+        "tr": "Yaprak Ciğer",
+        "en": "Pan-Fried Liver",
+        "ru": "Жареная печень"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 550,
+      "variants": [],
+      "img": "uploads/63db383549e956cb818712296903ddf6.webp",
+      "allergens": [
+        "gluten"
+      ],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "salata-1",
+      "cat": "salata",
+      "name": {
+        "tr": "Yeşil Salata",
+        "en": "Green Salad",
+        "ru": "Зелёный салат"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 250,
+      "variants": [],
+      "img": "uploads/17f2ed5a07a7ac7a2ad999a9de0c3e54.webp",
+      "allergens": [],
+      "tags": [
+        "vegan"
+      ],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "salata-2",
+      "cat": "salata",
+      "name": {
+        "tr": "Mevsim Salata",
+        "en": "Seasonal Salad",
+        "ru": "Сезонный салат"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 300,
+      "variants": [],
+      "img": "uploads/1e1e36167a9ee37935d63a615ee9638a.webp",
+      "allergens": [],
+      "tags": [
+        "vegan"
+      ],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "salata-3",
+      "cat": "salata",
+      "name": {
+        "tr": "Çoban Salata",
+        "en": "Shepherd's Salad",
+        "ru": "Салат «Чобан» (пастуший)"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 300,
+      "variants": [],
+      "img": "uploads/1e54bbf3d3c2f586155168c8072415a9.webp",
+      "allergens": [],
+      "tags": [
+        "vegan"
+      ],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "salata-4",
+      "cat": "salata",
+      "name": {
+        "tr": "Kaşık Salata",
+        "en": "Spoon Salad",
+        "ru": "Острый салат «Кашык»"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 300,
+      "variants": [],
+      "img": "uploads/aa0d3a56ae799bdb9832d5b9f75561fb.webp",
+      "allergens": [
+        "nuts"
+      ],
+      "tags": [
+        "vegan",
+        "spicy"
+      ],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "salata-5",
+      "cat": "salata",
+      "name": {
+        "tr": "Peynirli Salata",
+        "en": "Cheese Salad",
+        "ru": "Салат с сыром"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 350,
+      "variants": [],
+      "img": "uploads/61eaa006cdd01061f76fdae8372e9b02.webp",
+      "allergens": [
+        "milk"
+      ],
+      "tags": [
+        "veg"
+      ],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "salata-6",
+      "cat": "salata",
+      "name": {
+        "tr": "Sezar Salata",
+        "en": "Caesar Salad",
+        "ru": "Салат «Цезарь»"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 400,
+      "variants": [],
+      "img": "uploads/50b2a10dc0dbd8c5c08dbc32dc34af72.webp",
+      "allergens": [
+        "gluten",
+        "milk",
+        "egg",
+        "fish",
+        "mustard"
+      ],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "salata-7",
+      "cat": "salata",
+      "name": {
+        "tr": "Ton Balıklı Salata",
+        "en": "Tuna Salad",
+        "ru": "Салат с тунцом"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 350,
+      "variants": [],
+      "img": "uploads/563be1970d94f0929ab57561a00e0354.webp",
+      "allergens": [
+        "fish"
+      ],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "salata-8",
+      "cat": "salata",
+      "name": {
+        "tr": "Avokado Salatası",
+        "en": "Avocado Salad",
+        "ru": "Салат с авокадо"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 400,
+      "variants": [],
+      "img": "uploads/7d144d8ef8638adf3bba49ba7a8252a2.webp",
+      "allergens": [],
+      "tags": [
+        "vegan"
+      ],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "salata-9",
+      "cat": "salata",
+      "name": {
+        "tr": "Gavurdağı Salata",
+        "en": "Gavurdağ Salad",
+        "ru": "Салат «Гявурдагы»"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 300,
+      "variants": [],
+      "img": "uploads/86deab66509d9d9fb293b21a102c42b5.webp",
+      "allergens": [
+        "nuts"
+      ],
+      "tags": [
+        "vegan"
+      ],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "meze-1",
+      "cat": "meze",
+      "name": {
+        "tr": "Girit Ezme",
+        "en": "Cretan Spread",
+        "ru": "Критская паста"
+      },
+      "desc": {
+        "tr": "Beyaz peynir, zeytinyağı ve otlarla hazırlanır; ferah ve kremamsı sunulur.",
+        "en": "Prepared with white cheese, olive oil and herbs, served fresh and creamy.",
+        "ru": "Белый сыр, оливковое масло и травы — свежая и нежная закуска."
+      },
+      "price": 300,
+      "variants": [],
+      "img": "",
+      "allergens": [
+        "milk",
+        "nuts"
+      ],
+      "tags": [
+        "veg"
+      ],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "meze-2",
+      "cat": "meze",
+      "name": {
+        "tr": "Atom",
+        "en": "Spicy Yoghurt",
+        "ru": "Атом (острый йогурт)"
+      },
+      "desc": {
+        "tr": "Süzme yoğurt ve acı biber ile hazırlanır, yoğun aromasıyla servis edilir.",
+        "en": "Strained yoghurt with chili peppers, rich and flavourful.",
+        "ru": "Густой йогурт с острым перцем — насыщенный вкус."
+      },
+      "price": 300,
+      "variants": [],
+      "img": "",
+      "allergens": [
+        "milk"
+      ],
+      "tags": [
+        "veg",
+        "spicy"
+      ],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "meze-3",
+      "cat": "meze",
+      "name": {
+        "tr": "Humus",
+        "en": "Hummus",
+        "ru": "Хумус"
+      },
+      "desc": {
+        "tr": "Nohut, tahin ve zeytinyağı ile hazırlanır, pürüzsüz dokusuyla servis edilir.",
+        "en": "Chickpeas, tahini and olive oil, served smooth and creamy.",
+        "ru": "Нут, тахини и оливковое масло — гладкая и нежная текстура."
+      },
+      "price": 300,
+      "variants": [],
+      "img": "",
+      "allergens": [
+        "sesame"
+      ],
+      "tags": [
+        "vegan"
+      ],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "meze-4",
+      "cat": "meze",
+      "name": {
+        "tr": "Fava",
+        "en": "Fava Bean Purée",
+        "ru": "Фава (пюре из бобов)"
+      },
+      "desc": {
+        "tr": "Bakla ezmesi, zeytinyağı ve dereotu ile hafif ve zarif bir sunum.",
+        "en": "Broad beans, olive oil and dill, served light and elegant.",
+        "ru": "Бобы, оливковое масло и укроп — лёгкая и изящная закуска."
+      },
+      "price": 300,
+      "variants": [],
+      "img": "",
+      "allergens": [],
+      "tags": [
+        "vegan"
+      ],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "meze-5",
+      "cat": "meze",
+      "name": {
+        "tr": "Deniz Börülcesi",
+        "en": "Sea Beans (Samphire)",
+        "ru": "Морская спаржа (солерос)"
+      },
+      "desc": {
+        "tr": "Zeytinyağı ve limon ile ferah ve doğal haliyle servis edilir.",
+        "en": "With olive oil and lemon, served fresh and natural.",
+        "ru": "С оливковым маслом и лимоном — свежо и натурально."
+      },
+      "price": 300,
+      "variants": [],
+      "img": "",
+      "allergens": [],
+      "tags": [
+        "vegan"
+      ],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "meze-6",
+      "cat": "meze",
+      "name": {
+        "tr": "Semizotlu Yoğurt",
+        "en": "Yoghurt with Purslane",
+        "ru": "Йогурт с портулаком"
+      },
+      "desc": {
+        "tr": "Semizotu ve yoğurt ile serinletici bir sunum.",
+        "en": "Purslane and yoghurt, refreshing and light.",
+        "ru": "Портулак и йогурт — освежающе и легко."
+      },
+      "price": 300,
+      "variants": [],
+      "img": "",
+      "allergens": [
+        "milk"
+      ],
+      "tags": [
+        "veg"
+      ],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "meze-7",
+      "cat": "meze",
+      "name": {
+        "tr": "Şakşuka",
+        "en": "Shakshuka",
+        "ru": "Шакшука"
+      },
+      "desc": {
+        "tr": "Kızartılmış sebzeler ve domates sos ile hazırlanır, sıcak servis edilir.",
+        "en": "Fried vegetables with tomato sauce, served warm.",
+        "ru": "Жареные овощи в томатном соусе, подаётся тёплой."
+      },
+      "price": 300,
+      "variants": [],
+      "img": "",
+      "allergens": [],
+      "tags": [
+        "vegan"
+      ],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "meze-8",
+      "cat": "meze",
+      "name": {
+        "tr": "Peynir - Kavun",
+        "en": "Cheese & Melon",
+        "ru": "Сыр и дыня"
+      },
+      "desc": {
+        "tr": "Rakı sofralarının klasiği: beyaz peynir ve soğuk kavun.",
+        "en": "The rakı table classic: white cheese with chilled melon.",
+        "ru": "Классика застолья с ракы: белый сыр и охлаждённая дыня."
+      },
+      "price": 300,
+      "variants": [],
+      "img": "",
+      "allergens": [
+        "milk"
+      ],
+      "tags": [
+        "veg"
+      ],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "meze-9",
+      "cat": "meze",
+      "name": {
+        "tr": "Zeytinyağlı Enginar",
+        "en": "Artichokes in Olive Oil",
+        "ru": "Артишоки в оливковом масле"
+      },
+      "desc": {
+        "tr": "Zeytinyağı ve sebzelerle hafif ve ferah bir sunum.",
+        "en": "With olive oil and vegetables, light and refreshing.",
+        "ru": "С оливковым маслом и овощами — легко и свежо."
+      },
+      "price": 300,
+      "variants": [],
+      "img": "",
+      "allergens": [],
+      "tags": [
+        "vegan"
+      ],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "meze-10",
+      "cat": "meze",
+      "name": {
+        "tr": "Avokado",
+        "en": "Avocado",
+        "ru": "Авокадо"
+      },
+      "desc": {
+        "tr": "Taze avokado dilimleri, zeytinyağı ve limon ile.",
+        "en": "Fresh avocado slices with olive oil and lemon.",
+        "ru": "Свежие ломтики авокадо с оливковым маслом и лимоном."
+      },
+      "price": 300,
+      "variants": [],
+      "img": "",
+      "allergens": [],
+      "tags": [
+        "vegan"
+      ],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "meze-11",
+      "cat": "meze",
+      "name": {
+        "tr": "Mantar Tarator",
+        "en": "Mushroom Tarator",
+        "ru": "Грибной таратор"
+      },
+      "desc": {
+        "tr": "Mantar, yoğurt ve ceviz ile yoğun aromalı.",
+        "en": "Mushrooms, yoghurt and walnuts, rich and flavourful.",
+        "ru": "Грибы, йогурт и грецкие орехи — насыщенный вкус."
+      },
+      "price": 300,
+      "variants": [],
+      "img": "",
+      "allergens": [
+        "milk",
+        "nuts"
+      ],
+      "tags": [
+        "veg"
+      ],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "meze-12",
+      "cat": "meze",
+      "name": {
+        "tr": "Köz Patlıcan Salatası",
+        "en": "Roasted Eggplant Salad",
+        "ru": "Салат из печёных баклажанов"
+      },
+      "desc": {
+        "tr": "Közlenmiş patlıcan, zeytinyağı ve baharatlarla; dumanlı aroma.",
+        "en": "Roasted eggplant, olive oil and spices with a smoky flavour.",
+        "ru": "Печёные баклажаны, оливковое масло и специи с дымным ароматом."
+      },
+      "price": 300,
+      "variants": [],
+      "img": "",
+      "allergens": [],
+      "tags": [
+        "vegan"
+      ],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "meze-13",
+      "cat": "meze",
+      "name": {
+        "tr": "Levrek Marin",
+        "en": "Marinated Sea Bass",
+        "ru": "Маринованный сибас"
+      },
+      "desc": {
+        "tr": "Marine edilmiş levrek, limon ve zeytinyağı ile.",
+        "en": "Marinated sea bass with lemon and olive oil.",
+        "ru": "Маринованный сибас с лимоном и оливковым маслом."
+      },
+      "price": 300,
+      "variants": [],
+      "img": "",
+      "allergens": [
+        "fish"
+      ],
+      "tags": [
+        "chef"
+      ],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "meze-14",
+      "cat": "meze",
+      "name": {
+        "tr": "Kalamata Zeytin",
+        "en": "Kalamata Olives",
+        "ru": "Оливки Каламата"
+      },
+      "desc": {
+        "tr": "Özenle seçilmiş Kalamata zeytinleri, doğal haliyle.",
+        "en": "Selected Kalamata olives, served naturally.",
+        "ru": "Отборные оливки Каламата в натуральном виде."
+      },
+      "price": 300,
+      "variants": [],
+      "img": "",
+      "allergens": [],
+      "tags": [
+        "vegan"
+      ],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "meze-15",
+      "cat": "meze",
+      "name": {
+        "tr": "Pancar",
+        "en": "Beetroot",
+        "ru": "Свёкла"
+      },
+      "desc": {
+        "tr": "Haşlanmış pancar, zeytinyağı ile.",
+        "en": "Boiled beetroot with olive oil.",
+        "ru": "Отварная свёкла с оливковым маслом."
+      },
+      "price": 300,
+      "variants": [],
+      "img": "",
+      "allergens": [],
+      "tags": [
+        "vegan"
+      ],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "meze-16",
+      "cat": "meze",
+      "name": {
+        "tr": "Haydari",
+        "en": "Haydari",
+        "ru": "Хайдари"
+      },
+      "desc": {
+        "tr": "Süzme yoğurt, sarımsak ve otlarla yoğun kıvamlı.",
+        "en": "Strained yoghurt with garlic and herbs, thick and rich.",
+        "ru": "Густой йогурт с чесноком и травами."
+      },
+      "price": 300,
+      "variants": [],
+      "img": "",
+      "allergens": [
+        "milk"
+      ],
+      "tags": [
+        "veg"
+      ],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "meze-17",
+      "cat": "meze",
+      "name": {
+        "tr": "Manço",
+        "en": "Manço",
+        "ru": "Манчо"
+      },
+      "desc": {
+        "tr": "Özel karışım meze, zengin içerikle hazırlanır.",
+        "en": "A special mixed meze prepared with rich ingredients.",
+        "ru": "Фирменное ассорти мезе с богатым составом."
+      },
+      "price": 300,
+      "variants": [],
+      "img": "",
+      "allergens": [
+        "milk",
+        "nuts"
+      ],
+      "tags": [
+        "veg"
+      ],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "meze-18",
+      "cat": "meze",
+      "name": {
+        "tr": "Brokoli",
+        "en": "Broccoli",
+        "ru": "Брокколи"
+      },
+      "desc": {
+        "tr": "Haşlanmış brokoli, zeytinyağı ile hafifçe.",
+        "en": "Lightly boiled broccoli with olive oil.",
+        "ru": "Слегка отваренная брокколи с оливковым маслом."
+      },
+      "price": 300,
+      "variants": [],
+      "img": "",
+      "allergens": [],
+      "tags": [
+        "vegan"
+      ],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "meze-19",
+      "cat": "meze",
+      "name": {
+        "tr": "Köy Kızartması",
+        "en": "Village-Style Fries",
+        "ru": "Картофель по-деревенски"
+      },
+      "desc": {
+        "tr": "Doğal patateslerden, çıtır ve rustik sunum.",
+        "en": "Fresh potatoes, served crispy in a rustic style.",
+        "ru": "Свежий картофель, хрустящий, в деревенском стиле."
+      },
+      "price": 300,
+      "variants": [],
+      "img": "",
+      "allergens": [],
+      "tags": [
+        "vegan"
+      ],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "burger-1",
+      "cat": "burger",
+      "name": {
+        "tr": "Hamburger",
+        "en": "Hamburger",
+        "ru": "Гамбургер"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 500,
+      "variants": [],
+      "img": "uploads/c58b6d9713e821b8c444fab1da13a37f.webp",
+      "allergens": [
+        "gluten",
+        "sesame",
+        "mustard",
+        "egg"
+      ],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "burger-2",
+      "cat": "burger",
+      "name": {
+        "tr": "Cheeseburger",
+        "en": "Cheeseburger",
+        "ru": "Чизбургер"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 550,
+      "variants": [],
+      "img": "uploads/cf1bfbf05fbcc565d5922f70bf2f22e9.webp",
+      "allergens": [
+        "gluten",
+        "sesame",
+        "mustard",
+        "egg",
+        "milk"
+      ],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "burger-3",
+      "cat": "burger",
+      "name": {
+        "tr": "Barcode Special Double Burger",
+        "en": "Barcode Special Double Burger",
+        "ru": "Двойной бургер Barcode Special"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 650,
+      "variants": [],
+      "img": "uploads/2a63e74f39b7b68f4b5f8101ff88da70.webp",
+      "allergens": [
+        "gluten",
+        "sesame",
+        "mustard",
+        "egg",
+        "milk"
+      ],
+      "tags": [
+        "chef"
+      ],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "burger-4",
+      "cat": "burger",
+      "name": {
+        "tr": "Tavuk Burger",
+        "en": "Chicken Burger",
+        "ru": "Бургер с курицей"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 450,
+      "variants": [],
+      "img": "uploads/a9afdc87b5b66ea8bd1c4550e231f480.webp",
+      "allergens": [
+        "gluten",
+        "sesame",
+        "mustard",
+        "egg"
+      ],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "makarna-1",
+      "cat": "makarna",
+      "name": {
+        "tr": "Spagetti",
+        "en": "Spaghetti",
+        "ru": "Спагетти"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 350,
+      "variants": [],
+      "img": "uploads/3a6e328c7b1091d4d8c9d264080a2866.webp",
+      "allergens": [
+        "gluten",
+        "egg"
+      ],
+      "tags": [
+        "veg"
+      ],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "makarna-2",
+      "cat": "makarna",
+      "name": {
+        "tr": "Spagetti Napoliten",
+        "en": "Spaghetti Napolitana",
+        "ru": "Спагетти Наполитана"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 400,
+      "variants": [],
+      "img": "uploads/cbdd1673011996afaca812b1934defa6.webp",
+      "allergens": [
+        "gluten",
+        "egg"
+      ],
+      "tags": [
+        "veg"
+      ],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "makarna-3",
+      "cat": "makarna",
+      "name": {
+        "tr": "Spagetti Bolonez",
+        "en": "Spaghetti Bolognese",
+        "ru": "Спагетти Болоньезе"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 450,
+      "variants": [],
+      "img": "uploads/bcdbb184ee5bb7cc5ba41de2887b8c71.webp",
+      "allergens": [
+        "gluten",
+        "egg",
+        "celery"
+      ],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "makarna-4",
+      "cat": "makarna",
+      "name": {
+        "tr": "Deniz Ürünlü Spagetti",
+        "en": "Seafood Spaghetti",
+        "ru": "Спагетти с морепродуктами"
+      },
+      "desc": {
+        "tr": "2 kişilik.",
+        "en": "For 2 people.",
+        "ru": "На 2 персоны."
+      },
+      "price": 1000,
+      "variants": [],
+      "img": "uploads/88a356870e729358fee47dbbe46584d7.webp",
+      "allergens": [
+        "gluten",
+        "egg",
+        "crustacean",
+        "mollusc"
+      ],
+      "tags": [
+        "chef"
+      ],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "makarna-5",
+      "cat": "makarna",
+      "name": {
+        "tr": "Penne Arabiata",
+        "en": "Penne Arrabbiata",
+        "ru": "Пенне Арраббьята"
+      },
+      "desc": {
+        "tr": "Sebzeli ve domates soslu.",
+        "en": "With vegetables and tomato sauce.",
+        "ru": "С овощами и томатным соусом."
+      },
+      "price": 450,
+      "variants": [],
+      "img": "uploads/a28005878c9aec1e7d8897611842220c.webp",
+      "allergens": [
+        "gluten"
+      ],
+      "tags": [
+        "vegan",
+        "spicy"
+      ],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "makarna-6",
+      "cat": "makarna",
+      "name": {
+        "tr": "Penne Alfredo",
+        "en": "Penne Alfredo",
+        "ru": "Пенне Альфредо"
+      },
+      "desc": {
+        "tr": "Kremalı, mantarlı, tavuklu.",
+        "en": "Creamy with mushrooms and chicken.",
+        "ru": "Сливочный соус, грибы и курица."
+      },
+      "price": 450,
+      "variants": [],
+      "img": "uploads/de5164b05752910150c8f704ac3ab334.webp",
+      "allergens": [
+        "gluten",
+        "milk"
+      ],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "makarna-7",
+      "cat": "makarna",
+      "name": {
+        "tr": "Fettuccine Pesto",
+        "en": "Fettuccine Pesto",
+        "ru": "Феттучине песто"
+      },
+      "desc": {
+        "tr": "Pesto soslu, kremalı, tavuklu.",
+        "en": "Pesto sauce, cream and chicken.",
+        "ru": "Соус песто, сливки и курица."
+      },
+      "price": 450,
+      "variants": [],
+      "img": "uploads/10cc99a3b8c274afe2195f53ee3089b1.webp",
+      "allergens": [
+        "gluten",
+        "milk",
+        "egg",
+        "nuts"
+      ],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "pizza-1",
+      "cat": "pizza",
+      "name": {
+        "tr": "Pizza Margarita",
+        "en": "Pizza Margherita",
+        "ru": "Пицца Маргарита"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 400,
+      "variants": [],
+      "img": "uploads/fde05040f67e0f8fbd574056ec12c758.webp",
+      "allergens": [
+        "gluten",
+        "milk"
+      ],
+      "tags": [
+        "veg"
+      ],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "pizza-2",
+      "cat": "pizza",
+      "name": {
+        "tr": "Karışık Pizza",
+        "en": "Mixed Pizza",
+        "ru": "Пицца ассорти"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 500,
+      "variants": [],
+      "img": "uploads/ff0a370ff2f7e3b410204cc67ee0dd16.webp",
+      "allergens": [
+        "gluten",
+        "milk"
+      ],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "pizza-3",
+      "cat": "pizza",
+      "name": {
+        "tr": "3 Peynirli Pizza",
+        "en": "3 Cheese Pizza",
+        "ru": "Пицца «Три сыра»"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 500,
+      "variants": [],
+      "img": "uploads/62804580d5c7fa525082fdcb8e85bb61.webp",
+      "allergens": [
+        "gluten",
+        "milk"
+      ],
+      "tags": [
+        "veg"
+      ],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "izgara-1",
+      "cat": "izgara",
+      "name": {
+        "tr": "Dana Lokum",
+        "en": "Tender Beef Medallions",
+        "ru": "Медальоны из нежной говядины"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 900,
+      "variants": [],
+      "img": "uploads/5c6057683e0bc931081349317814ae85.webp",
+      "allergens": [],
+      "tags": [
+        "chef"
+      ],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "izgara-2",
+      "cat": "izgara",
+      "name": {
+        "tr": "Tavuk Şiş",
+        "en": "Chicken Shish",
+        "ru": "Куриный шиш-кебаб"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 450,
+      "variants": [],
+      "img": "uploads/c6b32a9011843b557d1a486f40ef64a4.webp",
+      "allergens": [
+        "milk"
+      ],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "izgara-3",
+      "cat": "izgara",
+      "name": {
+        "tr": "Köfte",
+        "en": "Meatballs",
+        "ru": "Кёфте (котлеты на гриле)"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 550,
+      "variants": [],
+      "img": "uploads/27f6466ca1a254165aa7b48664dd83ef.webp",
+      "allergens": [
+        "gluten",
+        "egg"
+      ],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "izgara-4",
+      "cat": "izgara",
+      "name": {
+        "tr": "Tavuk Kanat",
+        "en": "Chicken Wings",
+        "ru": "Куриные крылья"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 450,
+      "variants": [],
+      "img": "uploads/7c16216276ea2e3ca0da8c2bf649e7aa.webp",
+      "allergens": [],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "izgara-5",
+      "cat": "izgara",
+      "name": {
+        "tr": "Kavurma Güveç",
+        "en": "Meat Stew",
+        "ru": "Кавурма в горшочке"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 750,
+      "variants": [],
+      "img": "uploads/c5afb4815b8013f5ce5441b9a884c611.webp",
+      "allergens": [],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "izgara-6",
+      "cat": "izgara",
+      "name": {
+        "tr": "Dana Antrikot",
+        "en": "Beef Ribeye",
+        "ru": "Рибай из говядины"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 900,
+      "variants": [],
+      "img": "uploads/6029a6e46df5f5e245efd3c777b02c07.webp",
+      "allergens": [],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "izgara-7",
+      "cat": "izgara",
+      "name": {
+        "tr": "Dana Bonfile",
+        "en": "Beef Tenderloin",
+        "ru": "Говяжья вырезка"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 950,
+      "variants": [],
+      "img": "uploads/568e0013bf2ff3881ff1b419e0d029e4.webp",
+      "allergens": [],
+      "tags": [
+        "chef"
+      ],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "tavuk-1",
+      "cat": "tavuk",
+      "name": {
+        "tr": "Kremalı Mantarlı Tavuk",
+        "en": "Creamy Mushroom Chicken",
+        "ru": "Курица в сливочно-грибном соусе"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 500,
+      "variants": [],
+      "img": "uploads/3b4f587ab1cef17f30e01c7c59068bf6.webp",
+      "allergens": [
+        "milk"
+      ],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "tavuk-2",
+      "cat": "tavuk",
+      "name": {
+        "tr": "Kekikli Tavuk",
+        "en": "Chicken with Thyme",
+        "ru": "Курица с тимьяном"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 500,
+      "variants": [],
+      "img": "uploads/3b4f587ab1cef17f30e01c7c59068bf6.webp",
+      "allergens": [],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "tavuk-3",
+      "cat": "tavuk",
+      "name": {
+        "tr": "Sebzeli Tavuk",
+        "en": "Chicken with Vegetables",
+        "ru": "Курица с овощами"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 500,
+      "variants": [],
+      "img": "uploads/3b4f587ab1cef17f30e01c7c59068bf6.webp",
+      "allergens": [],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "tavuk-4",
+      "cat": "tavuk",
+      "name": {
+        "tr": "Köri Soslu Tavuk",
+        "en": "Chicken with Curry Sauce",
+        "ru": "Курица в соусе карри"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 500,
+      "variants": [],
+      "img": "uploads/3b4f587ab1cef17f30e01c7c59068bf6.webp",
+      "allergens": [
+        "milk",
+        "celery",
+        "mustard"
+      ],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "tavuk-5",
+      "cat": "tavuk",
+      "name": {
+        "tr": "Acı Soslu Tavuk",
+        "en": "Spicy Sauce Chicken",
+        "ru": "Курица в остром соусе"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 500,
+      "variants": [],
+      "img": "uploads/3b4f587ab1cef17f30e01c7c59068bf6.webp",
+      "allergens": [],
+      "tags": [
+        "spicy"
+      ],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "tavuk-6",
+      "cat": "tavuk",
+      "name": {
+        "tr": "Barbekü Soslu Tavuk",
+        "en": "Barbecue Sauce Chicken",
+        "ru": "Курица в соусе барбекю"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 500,
+      "variants": [],
+      "img": "uploads/3b4f587ab1cef17f30e01c7c59068bf6.webp",
+      "allergens": [
+        "mustard",
+        "soy"
+      ],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "deniz-1",
+      "cat": "deniz",
+      "name": {
+        "tr": "Çupra",
+        "en": "Sea Bream",
+        "ru": "Дорадо"
+      },
+      "desc": {
+        "tr": "Izgara veya tava.",
+        "en": "Grilled or pan-fried.",
+        "ru": "На гриле или жареная."
+      },
+      "price": 650,
+      "variants": [],
+      "img": "uploads/a0f68de728a8f1b525014628b39e5dd0.webp",
+      "allergens": [
+        "fish"
+      ],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "deniz-2",
+      "cat": "deniz",
+      "name": {
+        "tr": "Levrek",
+        "en": "Sea Bass",
+        "ru": "Сибас"
+      },
+      "desc": {
+        "tr": "Izgara veya tava.",
+        "en": "Grilled or pan-fried.",
+        "ru": "На гриле или жареный."
+      },
+      "price": 750,
+      "variants": [],
+      "img": "uploads/6782d03ba325da7e1936cee088660b66.webp",
+      "allergens": [
+        "fish"
+      ],
+      "tags": [
+        "chef"
+      ],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "deniz-3",
+      "cat": "deniz",
+      "name": {
+        "tr": "Kalamar Tava",
+        "en": "Fried Squid",
+        "ru": "Жареные кальмары"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 550,
+      "variants": [],
+      "img": "uploads/772f94fdc211aee20c3ac1fbe9109054.webp",
+      "allergens": [
+        "gluten",
+        "mollusc",
+        "egg"
+      ],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "deniz-4",
+      "cat": "deniz",
+      "name": {
+        "tr": "Güveçte Tereyağlı Karides",
+        "en": "Buttered Shrimp Casserole",
+        "ru": "Креветки в сливочном масле в горшочке"
+      },
+      "desc": {
+        "tr": "6 adet.",
+        "en": "6 pieces.",
+        "ru": "6 штук."
+      },
+      "price": 700,
+      "variants": [],
+      "img": "uploads/8a803bc9b200f48d6d42ce73e68dd7d6.webp",
+      "allergens": [
+        "crustacean",
+        "milk"
+      ],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "deniz-5",
+      "cat": "deniz",
+      "name": {
+        "tr": "Ahtapot Izgara",
+        "en": "Grilled Octopus",
+        "ru": "Осьминог на гриле"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 1200,
+      "variants": [],
+      "img": "uploads/e8daf704ca45903c9b054bb5b7309baf.webp",
+      "allergens": [
+        "mollusc"
+      ],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "deniz-6",
+      "cat": "deniz",
+      "name": {
+        "tr": "Günün Taze Balığı",
+        "en": "Catch of the Day",
+        "ru": "Свежая рыба дня"
+      },
+      "desc": {
+        "tr": "Menü dışındaki günlük taze balık seçeneklerimiz ve fiyatları için lütfen garsonumuza danışınız.",
+        "en": "Please ask your waiter about today’s fresh fish selection and prices.",
+        "ru": "Пожалуйста, уточните у официанта ассортимент и цены свежей рыбы сегодня."
+      },
+      "price": null,
+      "variants": [],
+      "img": "",
+      "allergens": [
+        "fish"
+      ],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "moktail-1",
+      "cat": "moktail",
+      "name": {
+        "tr": "Alkolsüz Mojito",
+        "en": "Virgin Mojito",
+        "ru": "Безалкогольный мохито"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 250,
+      "variants": [],
+      "img": "uploads/04dbce99c36a5c20b5a74858dc69ae95.webp",
+      "allergens": [],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "moktail-2",
+      "cat": "moktail",
+      "name": {
+        "tr": "Belek",
+        "en": "Belek",
+        "ru": "Белек"
+      },
+      "desc": {
+        "tr": "Bölgemizin adını taşıyan imza moktailimiz.",
+        "en": "Our signature mocktail named after our home, Belek.",
+        "ru": "Наш фирменный безалкогольный коктейль, названный в честь Белека."
+      },
+      "price": 250,
+      "variants": [],
+      "img": "uploads/a867a8a04ff633b6daaa494e2b4345c2.webp",
+      "allergens": [],
+      "tags": [
+        "chef"
+      ],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "moktail-3",
+      "cat": "moktail",
+      "name": {
+        "tr": "Berrys",
+        "en": "Berrys",
+        "ru": "Berrys"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 250,
+      "variants": [],
+      "img": "uploads/9310eae65a9c3e174eb15aefad406576.webp",
+      "allergens": [],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "moktail-4",
+      "cat": "moktail",
+      "name": {
+        "tr": "Rainbow",
+        "en": "Rainbow",
+        "ru": "Rainbow"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 250,
+      "variants": [],
+      "img": "uploads/9dddc36a65e5db18e114814b7ebe35c0.webp",
+      "allergens": [],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "moktail-5",
+      "cat": "moktail",
+      "name": {
+        "tr": "Smurfs",
+        "en": "Smurfs",
+        "ru": "Smurfs"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 250,
+      "variants": [],
+      "img": "uploads/3eac563f85cd8ebaad138b147e452a09.webp",
+      "allergens": [],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "frozen-1",
+      "cat": "frozen",
+      "name": {
+        "tr": "Çilek",
+        "en": "Strawberry",
+        "ru": "Клубника"
+      },
+      "desc": {
+        "tr": "Frozen, frappe veya milkshake olarak seçebilirsiniz.",
+        "en": "Choose frozen, frappe or milkshake.",
+        "ru": "Можно выбрать фрозен, фраппе или милкшейк."
+      },
+      "price": null,
+      "variants": [
+        {
+          "label": {
+            "tr": "Frozen",
+            "en": "Frozen",
+            "ru": "Фрозен"
+          },
+          "price": 250
+        },
+        {
+          "label": {
+            "tr": "Frappe",
+            "en": "Frappe",
+            "ru": "Фраппе"
+          },
+          "price": 250
+        },
+        {
+          "label": {
+            "tr": "Milkshake",
+            "en": "Milkshake",
+            "ru": "Милкшейк"
+          },
+          "price": 250
+        }
+      ],
+      "img": "uploads/fca8ad59881098aea094e1b1a9fc6fd7.webp",
+      "allergens": [
+        "milk"
+      ],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "frozen-2",
+      "cat": "frozen",
+      "name": {
+        "tr": "Mango",
+        "en": "Mango",
+        "ru": "Манго"
+      },
+      "desc": {
+        "tr": "Frozen, frappe veya milkshake olarak seçebilirsiniz.",
+        "en": "Choose frozen, frappe or milkshake.",
+        "ru": "Можно выбрать фрозен, фраппе или милкшейк."
+      },
+      "price": null,
+      "variants": [
+        {
+          "label": {
+            "tr": "Frozen",
+            "en": "Frozen",
+            "ru": "Фрозен"
+          },
+          "price": 250
+        },
+        {
+          "label": {
+            "tr": "Frappe",
+            "en": "Frappe",
+            "ru": "Фраппе"
+          },
+          "price": 250
+        },
+        {
+          "label": {
+            "tr": "Milkshake",
+            "en": "Milkshake",
+            "ru": "Милкшейк"
+          },
+          "price": 250
+        }
+      ],
+      "img": "uploads/989d588d309467a54d4f4b136958b8b8.webp",
+      "allergens": [
+        "milk"
+      ],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "frozen-3",
+      "cat": "frozen",
+      "name": {
+        "tr": "Muz",
+        "en": "Banana",
+        "ru": "Банан"
+      },
+      "desc": {
+        "tr": "Frozen, frappe veya milkshake olarak seçebilirsiniz.",
+        "en": "Choose frozen, frappe or milkshake.",
+        "ru": "Можно выбрать фрозен, фраппе или милкшейк."
+      },
+      "price": null,
+      "variants": [
+        {
+          "label": {
+            "tr": "Frozen",
+            "en": "Frozen",
+            "ru": "Фрозен"
+          },
+          "price": 250
+        },
+        {
+          "label": {
+            "tr": "Frappe",
+            "en": "Frappe",
+            "ru": "Фраппе"
+          },
+          "price": 250
+        },
+        {
+          "label": {
+            "tr": "Milkshake",
+            "en": "Milkshake",
+            "ru": "Милкшейк"
+          },
+          "price": 250
+        }
+      ],
+      "img": "uploads/9ca8adb090e4c66f4f2f7ba08d264ba5.webp",
+      "allergens": [
+        "milk"
+      ],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "frozen-4",
+      "cat": "frozen",
+      "name": {
+        "tr": "Yaban Mersini",
+        "en": "Blueberry",
+        "ru": "Черника"
+      },
+      "desc": {
+        "tr": "Frozen, frappe veya milkshake olarak seçebilirsiniz.",
+        "en": "Choose frozen, frappe or milkshake.",
+        "ru": "Можно выбрать фрозен, фраппе или милкшейк."
+      },
+      "price": null,
+      "variants": [
+        {
+          "label": {
+            "tr": "Frozen",
+            "en": "Frozen",
+            "ru": "Фрозен"
+          },
+          "price": 250
+        },
+        {
+          "label": {
+            "tr": "Frappe",
+            "en": "Frappe",
+            "ru": "Фраппе"
+          },
+          "price": 250
+        },
+        {
+          "label": {
+            "tr": "Milkshake",
+            "en": "Milkshake",
+            "ru": "Милкшейк"
+          },
+          "price": 250
+        }
+      ],
+      "img": "uploads/c8a500d57e912683c71c994ce9abda55.webp",
+      "allergens": [
+        "milk"
+      ],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "frozen-5",
+      "cat": "frozen",
+      "name": {
+        "tr": "Karpuz",
+        "en": "Watermelon",
+        "ru": "Арбуз"
+      },
+      "desc": {
+        "tr": "Frozen, frappe veya milkshake olarak seçebilirsiniz.",
+        "en": "Choose frozen, frappe or milkshake.",
+        "ru": "Можно выбрать фрозен, фраппе или милкшейк."
+      },
+      "price": null,
+      "variants": [
+        {
+          "label": {
+            "tr": "Frozen",
+            "en": "Frozen",
+            "ru": "Фрозен"
+          },
+          "price": 250
+        },
+        {
+          "label": {
+            "tr": "Frappe",
+            "en": "Frappe",
+            "ru": "Фраппе"
+          },
+          "price": 250
+        },
+        {
+          "label": {
+            "tr": "Milkshake",
+            "en": "Milkshake",
+            "ru": "Милкшейк"
+          },
+          "price": 250
+        }
+      ],
+      "img": "uploads/88f60dfc5d6fbf906ae27b67acfcecf8.webp",
+      "allergens": [
+        "milk"
+      ],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "frozen-6",
+      "cat": "frozen",
+      "name": {
+        "tr": "Kavun",
+        "en": "Melon",
+        "ru": "Дыня"
+      },
+      "desc": {
+        "tr": "Frozen, frappe veya milkshake olarak seçebilirsiniz.",
+        "en": "Choose frozen, frappe or milkshake.",
+        "ru": "Можно выбрать фрозен, фраппе или милкшейк."
+      },
+      "price": null,
+      "variants": [
+        {
+          "label": {
+            "tr": "Frozen",
+            "en": "Frozen",
+            "ru": "Фрозен"
+          },
+          "price": 250
+        },
+        {
+          "label": {
+            "tr": "Frappe",
+            "en": "Frappe",
+            "ru": "Фраппе"
+          },
+          "price": 250
+        },
+        {
+          "label": {
+            "tr": "Milkshake",
+            "en": "Milkshake",
+            "ru": "Милкшейк"
+          },
+          "price": 250
+        }
+      ],
+      "img": "uploads/0dee8e87dc650329ebbc7bfc9a951a8d.webp",
+      "allergens": [
+        "milk"
+      ],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "frozen-7",
+      "cat": "frozen",
+      "name": {
+        "tr": "Çikolata",
+        "en": "Chocolate",
+        "ru": "Шоколад"
+      },
+      "desc": {
+        "tr": "Frozen, frappe veya milkshake olarak seçebilirsiniz.",
+        "en": "Choose frozen, frappe or milkshake.",
+        "ru": "Можно выбрать фрозен, фраппе или милкшейк."
+      },
+      "price": null,
+      "variants": [
+        {
+          "label": {
+            "tr": "Frozen",
+            "en": "Frozen",
+            "ru": "Фрозен"
+          },
+          "price": 250
+        },
+        {
+          "label": {
+            "tr": "Frappe",
+            "en": "Frappe",
+            "ru": "Фраппе"
+          },
+          "price": 250
+        },
+        {
+          "label": {
+            "tr": "Milkshake",
+            "en": "Milkshake",
+            "ru": "Милкшейк"
+          },
+          "price": 250
+        }
+      ],
+      "img": "uploads/2497d62cf2275cae1ae1d8230d88fd2d.webp",
+      "allergens": [
+        "milk"
+      ],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "mesrubat-1",
+      "cat": "mesrubat",
+      "name": {
+        "tr": "Su",
+        "en": "Water",
+        "ru": "Вода"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": null,
+      "variants": [
+        {
+          "label": {
+            "tr": "Küçük",
+            "en": "Small",
+            "ru": "Маленькая"
+          },
+          "price": 40
+        },
+        {
+          "label": {
+            "tr": "Büyük",
+            "en": "Large",
+            "ru": "Большая"
+          },
+          "price": 100
+        }
+      ],
+      "img": "uploads/ef690062c3f6c927e1d613d216c8e713.webp",
+      "allergens": [],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "mesrubat-2",
+      "cat": "mesrubat",
+      "name": {
+        "tr": "Sade Soda",
+        "en": "Mineral Water",
+        "ru": "Минеральная вода"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 90,
+      "variants": [],
+      "img": "uploads/eac470853380f66c6239134a3fdc4bc5.webp",
+      "allergens": [],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "mesrubat-3",
+      "cat": "mesrubat",
+      "name": {
+        "tr": "Meyveli Soda",
+        "en": "Flavoured Mineral Water",
+        "ru": "Минеральная вода со вкусом"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 120,
+      "variants": [],
+      "img": "uploads/e7f882fa12619d37986f562a8a5d2a63.webp",
+      "allergens": [],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "mesrubat-4",
+      "cat": "mesrubat",
+      "name": {
+        "tr": "Kola",
+        "en": "Cola",
+        "ru": "Кола"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 150,
+      "variants": [],
+      "img": "uploads/8fd1042da6386a5b963aac1f25638e27.webp",
+      "allergens": [],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "mesrubat-5",
+      "cat": "mesrubat",
+      "name": {
+        "tr": "Fanta",
+        "en": "Fanta",
+        "ru": "Fanta"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 150,
+      "variants": [],
+      "img": "uploads/a7f0f4ee875a10d7f02c433b6ad790b0.webp",
+      "allergens": [],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "mesrubat-6",
+      "cat": "mesrubat",
+      "name": {
+        "tr": "Sprite",
+        "en": "Sprite",
+        "ru": "Sprite"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 150,
+      "variants": [],
+      "img": "uploads/13b5a7822a301623ee07783aa7be1df7.webp",
+      "allergens": [],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "mesrubat-7",
+      "cat": "mesrubat",
+      "name": {
+        "tr": "Ice Tea",
+        "en": "Ice Tea",
+        "ru": "Холодный чай"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 150,
+      "variants": [],
+      "img": "uploads/f88d8b28b2d4069c5ac9e5f5dace96e1.webp",
+      "allergens": [],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "mesrubat-8",
+      "cat": "mesrubat",
+      "name": {
+        "tr": "Limonata",
+        "en": "Lemonade",
+        "ru": "Лимонад"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 150,
+      "variants": [],
+      "img": "uploads/ee7c13883831823ed00b4fa2e5341d22.webp",
+      "allergens": [],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "mesrubat-9",
+      "cat": "mesrubat",
+      "name": {
+        "tr": "Meyve Suyu",
+        "en": "Fruit Juice",
+        "ru": "Фруктовый сок"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 150,
+      "variants": [],
+      "img": "uploads/2af84e8a61d0598250f917fec677d161.webp",
+      "allergens": [],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "mesrubat-10",
+      "cat": "mesrubat",
+      "name": {
+        "tr": "Taze Sıkılmış Portakal Suyu",
+        "en": "Fresh Orange Juice",
+        "ru": "Свежевыжатый апельсиновый сок"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 200,
+      "variants": [],
+      "img": "uploads/b5d4fca78322567124d423271eec4231.webp",
+      "allergens": [],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "mesrubat-11",
+      "cat": "mesrubat",
+      "name": {
+        "tr": "Taze Sıkılmış Nar Suyu",
+        "en": "Fresh Pomegranate Juice",
+        "ru": "Свежевыжатый гранатовый сок"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 200,
+      "variants": [],
+      "img": "uploads/c535c278ad647eaf6778aa4a4772c258.webp",
+      "allergens": [],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "mesrubat-12",
+      "cat": "mesrubat",
+      "name": {
+        "tr": "Red Bull",
+        "en": "Red Bull",
+        "ru": "Red Bull"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 200,
+      "variants": [],
+      "img": "uploads/cea5f6e6cd7b1d384ef5c4b45d17dc34.webp",
+      "allergens": [],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "mesrubat-13",
+      "cat": "mesrubat",
+      "name": {
+        "tr": "Şalgam",
+        "en": "Turnip Juice",
+        "ru": "Шалгам (сок из репы)"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": null,
+      "variants": [
+        {
+          "label": {
+            "tr": "Küçük",
+            "en": "Small",
+            "ru": "Маленькая"
+          },
+          "price": 100
+        },
+        {
+          "label": {
+            "tr": "Büyük",
+            "en": "Large",
+            "ru": "Большая"
+          },
+          "price": 200
+        }
+      ],
+      "img": "uploads/0e1d24df7e39a2fb58eb73dfe70ce352.webp",
+      "allergens": [],
+      "tags": [
+        "spicy"
+      ],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "mesrubat-14",
+      "cat": "mesrubat",
+      "name": {
+        "tr": "Churchill",
+        "en": "Churchill",
+        "ru": "Черчилль"
+      },
+      "desc": {
+        "tr": "Soda, limon ve tuz.",
+        "en": "Soda, lemon and salt.",
+        "ru": "Содовая, лимон и соль."
+      },
+      "price": 150,
+      "variants": [],
+      "img": "uploads/3073f1366d4fe03d19e1c13d5eaa35a7.webp",
+      "allergens": [],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "sicak-1",
+      "cat": "sicak",
+      "name": {
+        "tr": "Çay",
+        "en": "Turkish Tea",
+        "ru": "Турецкий чай"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": null,
+      "variants": [
+        {
+          "label": {
+            "tr": "Bardak",
+            "en": "Glass",
+            "ru": "Бокал"
+          },
+          "price": 50
+        },
+        {
+          "label": {
+            "tr": "Fincan",
+            "en": "Cup",
+            "ru": "Чашка"
+          },
+          "price": 100
+        }
+      ],
+      "img": "uploads/33c4df7ebf83b8fe0831318552ae3354.webp",
+      "allergens": [],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "sicak-2",
+      "cat": "sicak",
+      "name": {
+        "tr": "Bitki Çayları",
+        "en": "Herbal Teas",
+        "ru": "Травяные чаи"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 130,
+      "variants": [],
+      "img": "uploads/ce2f4ba309c2144f0a38db96f165ee57.webp",
+      "allergens": [],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "sicak-3",
+      "cat": "sicak",
+      "name": {
+        "tr": "Türk Kahvesi",
+        "en": "Turkish Coffee",
+        "ru": "Турецкий кофе"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 150,
+      "variants": [],
+      "img": "uploads/2cf26206fd794ed3ba3478f1d0a368db.webp",
+      "allergens": [],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "sicak-4",
+      "cat": "sicak",
+      "name": {
+        "tr": "Espresso",
+        "en": "Espresso",
+        "ru": "Эспрессо"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 150,
+      "variants": [],
+      "img": "uploads/0694c5a71f980a5fd162a65465753554.webp",
+      "allergens": [],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "sicak-5",
+      "cat": "sicak",
+      "name": {
+        "tr": "Double Espresso",
+        "en": "Double Espresso",
+        "ru": "Двойной эспрессо"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 200,
+      "variants": [],
+      "img": "uploads/04be0660b43ddf82da002bc829306ab4.webp",
+      "allergens": [],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "sicak-6",
+      "cat": "sicak",
+      "name": {
+        "tr": "Americano",
+        "en": "Americano",
+        "ru": "Американо"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 200,
+      "variants": [],
+      "img": "uploads/7373dfc0497263759a1dcdcb6aa0c96d.webp",
+      "allergens": [],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "sicak-7",
+      "cat": "sicak",
+      "name": {
+        "tr": "Latte",
+        "en": "Latte",
+        "ru": "Латте"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 220,
+      "variants": [],
+      "img": "uploads/899b7d182c99941a41514c7f504090cc.webp",
+      "allergens": [
+        "milk"
+      ],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "sicak-8",
+      "cat": "sicak",
+      "name": {
+        "tr": "Cappuccino",
+        "en": "Cappuccino",
+        "ru": "Капучино"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 220,
+      "variants": [],
+      "img": "uploads/71df354ade31c9542467092f2bf10c74.webp",
+      "allergens": [
+        "milk"
+      ],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "sicak-9",
+      "cat": "sicak",
+      "name": {
+        "tr": "Sıcak Çikolata",
+        "en": "Hot Chocolate",
+        "ru": "Горячий шоколад"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 200,
+      "variants": [],
+      "img": "uploads/053bfedda3a1c8fa4743b760090760e7.webp",
+      "allergens": [
+        "milk",
+        "soy"
+      ],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "kokteyl-1",
+      "cat": "kokteyl",
+      "name": {
+        "tr": "Aperol Spritz",
+        "en": "Aperol Spritz",
+        "ru": "Aperol Spritz"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 600,
+      "variants": [],
+      "img": "uploads/8dad1790f0e5926c5a13b8b90aad4c29.webp",
+      "allergens": [
+        "sulphite"
+      ],
+      "tags": [
+        "chef"
+      ],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "kokteyl-2",
+      "cat": "kokteyl",
+      "name": {
+        "tr": "Long Island",
+        "en": "Long Island Iced Tea",
+        "ru": "Long Island Iced Tea"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 650,
+      "variants": [],
+      "img": "uploads/3ba38e996605138c858fbe294e9aabf4.webp",
+      "allergens": [],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "kokteyl-3",
+      "cat": "kokteyl",
+      "name": {
+        "tr": "Sex On The Beach",
+        "en": "Sex On The Beach",
+        "ru": "Sex On The Beach"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 600,
+      "variants": [],
+      "img": "uploads/3fb0e39e840b7c8ddd55e6cc99d47b26.webp",
+      "allergens": [],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "kokteyl-4",
+      "cat": "kokteyl",
+      "name": {
+        "tr": "Dry Martini",
+        "en": "Dry Martini",
+        "ru": "Dry Martini"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 600,
+      "variants": [],
+      "img": "uploads/564c0caef8bb0292fad7272aa348ebee.webp",
+      "allergens": [
+        "sulphite"
+      ],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "kokteyl-5",
+      "cat": "kokteyl",
+      "name": {
+        "tr": "Mojito",
+        "en": "Mojito",
+        "ru": "Mojito"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 600,
+      "variants": [],
+      "img": "uploads/ee7770693037c47e874a0e61fe62afb7.webp",
+      "allergens": [],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "kokteyl-6",
+      "cat": "kokteyl",
+      "name": {
+        "tr": "Piña Colada",
+        "en": "Piña Colada",
+        "ru": "Пина колада"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 600,
+      "variants": [],
+      "img": "uploads/7f5c93c6b7680d433a16c11d3ec5ec1e.webp",
+      "allergens": [
+        "milk"
+      ],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "kokteyl-7",
+      "cat": "kokteyl",
+      "name": {
+        "tr": "Cosmopolitan",
+        "en": "Cosmopolitan",
+        "ru": "Космополитен"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 600,
+      "variants": [],
+      "img": "uploads/e0ed068d440af7641f997fc89943a3af.webp",
+      "allergens": [],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "kokteyl-8",
+      "cat": "kokteyl",
+      "name": {
+        "tr": "Cuba Libre",
+        "en": "Cuba Libre",
+        "ru": "Куба либре"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 600,
+      "variants": [],
+      "img": "uploads/c128465e5c9d8c1c18605e42630bf781.webp",
+      "allergens": [],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "kokteyl-9",
+      "cat": "kokteyl",
+      "name": {
+        "tr": "Pornstar Martini",
+        "en": "Pornstar Martini",
+        "ru": "Pornstar Martini"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 700,
+      "variants": [],
+      "img": "uploads/c83ab5c508a3ed95a425fe86263f2fa8.webp",
+      "allergens": [
+        "sulphite"
+      ],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "kokteyl-10",
+      "cat": "kokteyl",
+      "name": {
+        "tr": "Margarita",
+        "en": "Margarita",
+        "ru": "Маргарита"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 600,
+      "variants": [],
+      "img": "uploads/309eadcb9426bfcf8cb3a5c39b8924b1.webp",
+      "allergens": [],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "kokteyl-11",
+      "cat": "kokteyl",
+      "name": {
+        "tr": "Tequila Sunrise",
+        "en": "Tequila Sunrise",
+        "ru": "Tequila Sunrise"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 600,
+      "variants": [],
+      "img": "uploads/e6347ccb17938cd3c3003813cb8eac28.webp",
+      "allergens": [],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "kokteyl-12",
+      "cat": "kokteyl",
+      "name": {
+        "tr": "Lynchburg Lemonade",
+        "en": "Lynchburg Lemonade",
+        "ru": "Lynchburg Lemonade"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 600,
+      "variants": [],
+      "img": "uploads/4228c92d5cf6b136b3b120aee7762099.webp",
+      "allergens": [],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "kokteyl-13",
+      "cat": "kokteyl",
+      "name": {
+        "tr": "Whiskey Sour",
+        "en": "Whiskey Sour",
+        "ru": "Whiskey Sour"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 600,
+      "variants": [],
+      "img": "uploads/3f331a3b82f71d34758386038cfbf7d5.webp",
+      "allergens": [
+        "egg",
+        "gluten"
+      ],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "raki-1",
+      "cat": "raki",
+      "name": {
+        "tr": "Rakı Kadeh",
+        "en": "Rakı by the Glass",
+        "ru": "Ракы в бокале"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": null,
+      "variants": [
+        {
+          "label": {
+            "tr": "Tek Kadeh",
+            "en": "Single",
+            "ru": "Одинарная порция"
+          },
+          "price": 300
+        },
+        {
+          "label": {
+            "tr": "Double Kadeh",
+            "en": "Double",
+            "ru": "Двойная порция"
+          },
+          "price": 400
+        }
+      ],
+      "img": "uploads/472a915769a110ee0f2cbcdc33610eb7.webp",
+      "allergens": [],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "raki-2",
+      "cat": "raki",
+      "name": {
+        "tr": "Yeni Rakı",
+        "en": "Yeni Rakı",
+        "ru": "Yeni Rakı"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": null,
+      "variants": [
+        {
+          "label": {
+            "tr": "35 cl Şişe",
+            "en": "35 cl Bottle",
+            "ru": "Бутылка 0,35 л"
+          },
+          "price": 2250
+        },
+        {
+          "label": {
+            "tr": "50 cl Şişe",
+            "en": "50 cl Bottle",
+            "ru": "Бутылка 0,5 л"
+          },
+          "price": 3000
+        },
+        {
+          "label": {
+            "tr": "70 cl Şişe",
+            "en": "70 cl Bottle",
+            "ru": "Бутылка 0,7 л"
+          },
+          "price": 3750
+        },
+        {
+          "label": {
+            "tr": "100 cl Şişe",
+            "en": "100 cl Bottle",
+            "ru": "Бутылка 1 л"
+          },
+          "price": 4500
+        }
+      ],
+      "img": "uploads/df023d104f90fab6bd36e2c5497b98db.webp",
+      "allergens": [],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "raki-3",
+      "cat": "raki",
+      "name": {
+        "tr": "Tekirdağ Rakı",
+        "en": "Tekirdağ Rakı",
+        "ru": "Tekirdağ Rakı"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": null,
+      "variants": [
+        {
+          "label": {
+            "tr": "35 cl Şişe",
+            "en": "35 cl Bottle",
+            "ru": "Бутылка 0,35 л"
+          },
+          "price": 2750
+        },
+        {
+          "label": {
+            "tr": "50 cl Şişe",
+            "en": "50 cl Bottle",
+            "ru": "Бутылка 0,5 л"
+          },
+          "price": 3500
+        },
+        {
+          "label": {
+            "tr": "70 cl Şişe",
+            "en": "70 cl Bottle",
+            "ru": "Бутылка 0,7 л"
+          },
+          "price": 4250
+        },
+        {
+          "label": {
+            "tr": "100 cl Şişe",
+            "en": "100 cl Bottle",
+            "ru": "Бутылка 1 л"
+          },
+          "price": 5000
+        }
+      ],
+      "img": "uploads/54162e0ffc836149b0711352e8798229.webp",
+      "allergens": [],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "raki-4",
+      "cat": "raki",
+      "name": {
+        "tr": "Tekirdağ Altın Seri",
+        "en": "Tekirdağ Gold Series",
+        "ru": "Tekirdağ Золотая серия"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": null,
+      "variants": [
+        {
+          "label": {
+            "tr": "35 cl Şişe",
+            "en": "35 cl Bottle",
+            "ru": "Бутылка 0,35 л"
+          },
+          "price": 2750
+        },
+        {
+          "label": {
+            "tr": "50 cl Şişe",
+            "en": "50 cl Bottle",
+            "ru": "Бутылка 0,5 л"
+          },
+          "price": 3500
+        },
+        {
+          "label": {
+            "tr": "70 cl Şişe",
+            "en": "70 cl Bottle",
+            "ru": "Бутылка 0,7 л"
+          },
+          "price": 4250
+        },
+        {
+          "label": {
+            "tr": "100 cl Şişe",
+            "en": "100 cl Bottle",
+            "ru": "Бутылка 1 л"
+          },
+          "price": 5000
+        }
+      ],
+      "img": "uploads/8c53e44d5186eb2d84292ace83d5fa5e.webp",
+      "allergens": [],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "raki-5",
+      "cat": "raki",
+      "name": {
+        "tr": "Beylerbeyi Göbek",
+        "en": "Beylerbeyi Göbek",
+        "ru": "Beylerbeyi Göbek"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": null,
+      "variants": [
+        {
+          "label": {
+            "tr": "35 cl Şişe",
+            "en": "35 cl Bottle",
+            "ru": "Бутылка 0,35 л"
+          },
+          "price": 2750
+        },
+        {
+          "label": {
+            "tr": "50 cl Şişe",
+            "en": "50 cl Bottle",
+            "ru": "Бутылка 0,5 л"
+          },
+          "price": 3500
+        },
+        {
+          "label": {
+            "tr": "70 cl Şişe",
+            "en": "70 cl Bottle",
+            "ru": "Бутылка 0,7 л"
+          },
+          "price": 4250
+        },
+        {
+          "label": {
+            "tr": "100 cl Şişe",
+            "en": "100 cl Bottle",
+            "ru": "Бутылка 1 л"
+          },
+          "price": 5000
+        }
+      ],
+      "img": "uploads/e629b9689bcde731aac4c90212abdb7c.webp",
+      "allergens": [],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "raki-6",
+      "cat": "raki",
+      "name": {
+        "tr": "Efe Gold",
+        "en": "Efe Gold",
+        "ru": "Efe Gold"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": null,
+      "variants": [
+        {
+          "label": {
+            "tr": "35 cl Şişe",
+            "en": "35 cl Bottle",
+            "ru": "Бутылка 0,35 л"
+          },
+          "price": 2750
+        },
+        {
+          "label": {
+            "tr": "50 cl Şişe",
+            "en": "50 cl Bottle",
+            "ru": "Бутылка 0,5 л"
+          },
+          "price": 3500
+        },
+        {
+          "label": {
+            "tr": "70 cl Şişe",
+            "en": "70 cl Bottle",
+            "ru": "Бутылка 0,7 л"
+          },
+          "price": 4250
+        },
+        {
+          "label": {
+            "tr": "100 cl Şişe",
+            "en": "100 cl Bottle",
+            "ru": "Бутылка 1 л"
+          },
+          "price": 5000
+        }
+      ],
+      "img": "uploads/bc66ae44130c488cfe72a222dccd1d22.webp",
+      "allergens": [],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "bira-1",
+      "cat": "bira",
+      "name": {
+        "tr": "Efes",
+        "en": "Efes Pilsen",
+        "ru": "Efes Pilsen"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 280,
+      "variants": [],
+      "img": "uploads/07ef3004fb39e55e41b259fe4138de1d.webp",
+      "allergens": [
+        "gluten"
+      ],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "bira-2",
+      "cat": "bira",
+      "name": {
+        "tr": "Efes Malt",
+        "en": "Efes Malt",
+        "ru": "Efes Malt"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 280,
+      "variants": [],
+      "img": "uploads/b333ccfab8c5a0ddfd448d6f95f65cfe.webp",
+      "allergens": [
+        "gluten"
+      ],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "bira-3",
+      "cat": "bira",
+      "name": {
+        "tr": "Bomonti Filtresiz",
+        "en": "Bomonti Unfiltered",
+        "ru": "Bomonti нефильтрованное"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 300,
+      "variants": [],
+      "img": "uploads/08c8ec3b5d34c2c3c8d6a5aab061ae20.webp",
+      "allergens": [
+        "gluten"
+      ],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "bira-4",
+      "cat": "bira",
+      "name": {
+        "tr": "Miller",
+        "en": "Miller",
+        "ru": "Miller"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 300,
+      "variants": [],
+      "img": "uploads/0cc2750c3b278651d537341fd07eafe0.webp",
+      "allergens": [
+        "gluten"
+      ],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "bira-5",
+      "cat": "bira",
+      "name": {
+        "tr": "Beck's",
+        "en": "Beck's",
+        "ru": "Beck's"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 300,
+      "variants": [],
+      "img": "uploads/ee8674debabed33e46e1bbd4b0226438.webp",
+      "allergens": [
+        "gluten"
+      ],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "bira-6",
+      "cat": "bira",
+      "name": {
+        "tr": "Corona",
+        "en": "Corona",
+        "ru": "Corona"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 320,
+      "variants": [],
+      "img": "uploads/0bde348ebca793e104eed5a4861621fa.webp",
+      "allergens": [
+        "gluten"
+      ],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "bira-7",
+      "cat": "bira",
+      "name": {
+        "tr": "Tuborg",
+        "en": "Tuborg",
+        "ru": "Tuborg"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 280,
+      "variants": [],
+      "img": "uploads/f224a8db92d62e01b7da02d1a345572d.webp",
+      "allergens": [
+        "gluten"
+      ],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "bira-8",
+      "cat": "bira",
+      "name": {
+        "tr": "Tuborg Ice",
+        "en": "Tuborg Ice",
+        "ru": "Tuborg Ice"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 250,
+      "variants": [],
+      "img": "uploads/61f9e69cdea413735aa4076097cde4b1.webp",
+      "allergens": [
+        "gluten"
+      ],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "bira-9",
+      "cat": "bira",
+      "name": {
+        "tr": "Carlsberg",
+        "en": "Carlsberg",
+        "ru": "Carlsberg"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 300,
+      "variants": [],
+      "img": "uploads/ac11f4ba4c65a52d6cc9548e5a37e7b1.webp",
+      "allergens": [
+        "gluten"
+      ],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "bira-10",
+      "cat": "bira",
+      "name": {
+        "tr": "Blanc",
+        "en": "Blanc",
+        "ru": "Blanc"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 300,
+      "variants": [],
+      "img": "uploads/ea7a742257b5e0ca3e717347d0b2b991.webp",
+      "allergens": [
+        "gluten"
+      ],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "bira-11",
+      "cat": "bira",
+      "name": {
+        "tr": "Guinness",
+        "en": "Guinness",
+        "ru": "Guinness"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 350,
+      "variants": [],
+      "img": "uploads/7225384381e5d5b2125e77b8b2cdff6b.webp",
+      "allergens": [
+        "gluten"
+      ],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "sarap-1",
+      "cat": "sarap",
+      "name": {
+        "tr": "Kırmızı Şarap",
+        "en": "Red Wine",
+        "ru": "Красное вино"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": null,
+      "variants": [
+        {
+          "label": {
+            "tr": "Kadeh",
+            "en": "Glass",
+            "ru": "Бокал"
+          },
+          "price": 400
+        },
+        {
+          "label": {
+            "tr": "Şişe · Klasik",
+            "en": "Bottle · Classic",
+            "ru": "Бутылка · Классик"
+          },
+          "price": 2500
+        },
+        {
+          "label": {
+            "tr": "Şişe · Premium",
+            "en": "Bottle · Premium",
+            "ru": "Бутылка · Премиум"
+          },
+          "price": 4500
+        },
+        {
+          "label": {
+            "tr": "Şişe · Prestige",
+            "en": "Bottle · Prestige",
+            "ru": "Бутылка · Престиж"
+          },
+          "price": 7000
+        }
+      ],
+      "img": "uploads/64a3e527d2ed677be239ee62cef0ba32.webp",
+      "allergens": [
+        "sulphite"
+      ],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "sarap-2",
+      "cat": "sarap",
+      "name": {
+        "tr": "Beyaz Şarap",
+        "en": "White Wine",
+        "ru": "Белое вино"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": null,
+      "variants": [
+        {
+          "label": {
+            "tr": "Kadeh",
+            "en": "Glass",
+            "ru": "Бокал"
+          },
+          "price": 400
+        },
+        {
+          "label": {
+            "tr": "Şişe · Klasik",
+            "en": "Bottle · Classic",
+            "ru": "Бутылка · Классик"
+          },
+          "price": 2500
+        },
+        {
+          "label": {
+            "tr": "Şişe · Premium",
+            "en": "Bottle · Premium",
+            "ru": "Бутылка · Премиум"
+          },
+          "price": 4500
+        },
+        {
+          "label": {
+            "tr": "Şişe · Prestige",
+            "en": "Bottle · Prestige",
+            "ru": "Бутылка · Престиж"
+          },
+          "price": 7000
+        }
+      ],
+      "img": "uploads/452b7e9870554dd5b33af5686636d537.webp",
+      "allergens": [
+        "sulphite"
+      ],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "sarap-3",
+      "cat": "sarap",
+      "name": {
+        "tr": "Roze Şarap",
+        "en": "Rosé Wine",
+        "ru": "Розовое вино"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": null,
+      "variants": [
+        {
+          "label": {
+            "tr": "Kadeh",
+            "en": "Glass",
+            "ru": "Бокал"
+          },
+          "price": 400
+        },
+        {
+          "label": {
+            "tr": "Şişe",
+            "en": "Bottle",
+            "ru": "Бутылка"
+          },
+          "price": 2500
+        }
+      ],
+      "img": "uploads/4af5b721459514cabdbed04e90c766a4.webp",
+      "allergens": [
+        "sulphite"
+      ],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "sarap-4",
+      "cat": "sarap",
+      "name": {
+        "tr": "Meyveli Şarap",
+        "en": "Fruit Wine",
+        "ru": "Фруктовое вино"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": null,
+      "variants": [
+        {
+          "label": {
+            "tr": "Şişe",
+            "en": "Bottle",
+            "ru": "Бутылка"
+          },
+          "price": 2500
+        }
+      ],
+      "img": "uploads/09907f96b54c8656cef79dea851a132e.webp",
+      "allergens": [
+        "sulphite"
+      ],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "sarap-5",
+      "cat": "sarap",
+      "name": {
+        "tr": "Sangria",
+        "en": "Sangria",
+        "ru": "Сангрия"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": null,
+      "variants": [
+        {
+          "label": {
+            "tr": "Kadeh",
+            "en": "Glass",
+            "ru": "Бокал"
+          },
+          "price": 400
+        },
+        {
+          "label": {
+            "tr": "Sürahi",
+            "en": "Jug",
+            "ru": "Кувшин"
+          },
+          "price": 1500
+        }
+      ],
+      "img": "uploads/c1578824f4953bbaed4ee06535f58ee6.webp",
+      "allergens": [
+        "sulphite"
+      ],
+      "tags": [
+        "chef"
+      ],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "sarap-6",
+      "cat": "sarap",
+      "name": {
+        "tr": "Şampanya",
+        "en": "Champagne",
+        "ru": "Шампанское"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": null,
+      "variants": [
+        {
+          "label": {
+            "tr": "Kadeh",
+            "en": "Glass",
+            "ru": "Бокал"
+          },
+          "price": 400
+        },
+        {
+          "label": {
+            "tr": "Şişe · Klasik",
+            "en": "Bottle · Classic",
+            "ru": "Бутылка · Классик"
+          },
+          "price": 2000
+        },
+        {
+          "label": {
+            "tr": "Şişe · Premium",
+            "en": "Bottle · Premium",
+            "ru": "Бутылка · Премиум"
+          },
+          "price": 5000
+        },
+        {
+          "label": {
+            "tr": "Şişe · Prestige",
+            "en": "Bottle · Prestige",
+            "ru": "Бутылка · Престиж"
+          },
+          "price": 10000
+        }
+      ],
+      "img": "uploads/fa0687d0d8f5ccc5011a0e238e2a49f6.webp",
+      "allergens": [
+        "sulphite"
+      ],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "cin-1",
+      "cat": "cin",
+      "name": {
+        "tr": "Gordon's",
+        "en": "Gordon's",
+        "ru": "Gordon's"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": null,
+      "variants": [
+        {
+          "label": {
+            "tr": "Tek Kadeh",
+            "en": "Single",
+            "ru": "Одинарная порция"
+          },
+          "price": 400
+        },
+        {
+          "label": {
+            "tr": "Double Kadeh",
+            "en": "Double",
+            "ru": "Двойная порция"
+          },
+          "price": 600
+        },
+        {
+          "label": {
+            "tr": "35 cl Şişe",
+            "en": "35 cl Bottle",
+            "ru": "Бутылка 0,35 л"
+          },
+          "price": 2800
+        },
+        {
+          "label": {
+            "tr": "70 cl Şişe",
+            "en": "70 cl Bottle",
+            "ru": "Бутылка 0,7 л"
+          },
+          "price": 5000
+        }
+      ],
+      "img": "uploads/262626f92bdc94103c6458d53aac70ba.webp",
+      "allergens": [],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "cin-2",
+      "cat": "cin",
+      "name": {
+        "tr": "Gordon's Pink",
+        "en": "Gordon's Pink",
+        "ru": "Gordon's Pink"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": null,
+      "variants": [
+        {
+          "label": {
+            "tr": "Tek Kadeh",
+            "en": "Single",
+            "ru": "Одинарная порция"
+          },
+          "price": 500
+        },
+        {
+          "label": {
+            "tr": "Double Kadeh",
+            "en": "Double",
+            "ru": "Двойная порция"
+          },
+          "price": 650
+        },
+        {
+          "label": {
+            "tr": "70 cl Şişe",
+            "en": "70 cl Bottle",
+            "ru": "Бутылка 0,7 л"
+          },
+          "price": 5500
+        }
+      ],
+      "img": "uploads/6c6a52622124f74cef330196c3b0e5ca.webp",
+      "allergens": [],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "cin-3",
+      "cat": "cin",
+      "name": {
+        "tr": "Beefeater",
+        "en": "Beefeater",
+        "ru": "Beefeater"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": null,
+      "variants": [
+        {
+          "label": {
+            "tr": "Tek Kadeh",
+            "en": "Single",
+            "ru": "Одинарная порция"
+          },
+          "price": 400
+        },
+        {
+          "label": {
+            "tr": "Double Kadeh",
+            "en": "Double",
+            "ru": "Двойная порция"
+          },
+          "price": 600
+        },
+        {
+          "label": {
+            "tr": "35 cl Şişe",
+            "en": "35 cl Bottle",
+            "ru": "Бутылка 0,35 л"
+          },
+          "price": 2800
+        },
+        {
+          "label": {
+            "tr": "70 cl Şişe",
+            "en": "70 cl Bottle",
+            "ru": "Бутылка 0,7 л"
+          },
+          "price": 5000
+        }
+      ],
+      "img": "uploads/41f8bd0d40a60739f3e0f65018a56a8f.webp",
+      "allergens": [],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "cin-4",
+      "cat": "cin",
+      "name": {
+        "tr": "Hendrick's",
+        "en": "Hendrick's",
+        "ru": "Hendrick's"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": null,
+      "variants": [
+        {
+          "label": {
+            "tr": "70 cl Şişe",
+            "en": "70 cl Bottle",
+            "ru": "Бутылка 0,7 л"
+          },
+          "price": 8000
+        }
+      ],
+      "img": "uploads/1ca81869ed642acbe0b07d5fa2346b58.webp",
+      "allergens": [],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "votka-1",
+      "cat": "votka",
+      "name": {
+        "tr": "Absolut",
+        "en": "Absolut",
+        "ru": "Absolut"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": null,
+      "variants": [
+        {
+          "label": {
+            "tr": "Tek Kadeh",
+            "en": "Single",
+            "ru": "Одинарная порция"
+          },
+          "price": 400
+        },
+        {
+          "label": {
+            "tr": "Double Kadeh",
+            "en": "Double",
+            "ru": "Двойная порция"
+          },
+          "price": 600
+        },
+        {
+          "label": {
+            "tr": "35 cl Şişe",
+            "en": "35 cl Bottle",
+            "ru": "Бутылка 0,35 л"
+          },
+          "price": 3000
+        },
+        {
+          "label": {
+            "tr": "70 cl Şişe",
+            "en": "70 cl Bottle",
+            "ru": "Бутылка 0,7 л"
+          },
+          "price": 5500
+        }
+      ],
+      "img": "uploads/fefe326c3f78b4417fa7e8ac4e614b62.webp",
+      "allergens": [],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "votka-2",
+      "cat": "votka",
+      "name": {
+        "tr": "Smirnoff",
+        "en": "Smirnoff",
+        "ru": "Smirnoff"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": null,
+      "variants": [
+        {
+          "label": {
+            "tr": "Tek Kadeh",
+            "en": "Single",
+            "ru": "Одинарная порция"
+          },
+          "price": 400
+        },
+        {
+          "label": {
+            "tr": "Double Kadeh",
+            "en": "Double",
+            "ru": "Двойная порция"
+          },
+          "price": 600
+        },
+        {
+          "label": {
+            "tr": "35 cl Şişe",
+            "en": "35 cl Bottle",
+            "ru": "Бутылка 0,35 л"
+          },
+          "price": 3000
+        },
+        {
+          "label": {
+            "tr": "70 cl Şişe",
+            "en": "70 cl Bottle",
+            "ru": "Бутылка 0,7 л"
+          },
+          "price": 5500
+        }
+      ],
+      "img": "uploads/c5c4881e2c12e6670e52c6073e4bef46.webp",
+      "allergens": [],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "votka-3",
+      "cat": "votka",
+      "name": {
+        "tr": "İstanblue",
+        "en": "İstanblue",
+        "ru": "İstanblue"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": null,
+      "variants": [
+        {
+          "label": {
+            "tr": "Tek Kadeh",
+            "en": "Single",
+            "ru": "Одинарная порция"
+          },
+          "price": 350
+        },
+        {
+          "label": {
+            "tr": "Double Kadeh",
+            "en": "Double",
+            "ru": "Двойная порция"
+          },
+          "price": 500
+        },
+        {
+          "label": {
+            "tr": "35 cl Şişe",
+            "en": "35 cl Bottle",
+            "ru": "Бутылка 0,35 л"
+          },
+          "price": 2500
+        },
+        {
+          "label": {
+            "tr": "70 cl Şişe",
+            "en": "70 cl Bottle",
+            "ru": "Бутылка 0,7 л"
+          },
+          "price": 4500
+        }
+      ],
+      "img": "uploads/14f38bdd27491bb6fe39368044ddafe5.webp",
+      "allergens": [],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "votka-4",
+      "cat": "votka",
+      "name": {
+        "tr": "Belvedere",
+        "en": "Belvedere",
+        "ru": "Belvedere"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": null,
+      "variants": [
+        {
+          "label": {
+            "tr": "70 cl Şişe",
+            "en": "70 cl Bottle",
+            "ru": "Бутылка 0,7 л"
+          },
+          "price": 7000
+        }
+      ],
+      "img": "uploads/ff1739b2053ace4a5cdf6e0e182e72bf.webp",
+      "allergens": [],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "viski-1",
+      "cat": "viski",
+      "name": {
+        "tr": "Red Label",
+        "en": "Red Label",
+        "ru": "Red Label"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": null,
+      "variants": [
+        {
+          "label": {
+            "tr": "Tek Kadeh",
+            "en": "Single",
+            "ru": "Одинарная порция"
+          },
+          "price": 400
+        },
+        {
+          "label": {
+            "tr": "Double Kadeh",
+            "en": "Double",
+            "ru": "Двойная порция"
+          },
+          "price": 600
+        },
+        {
+          "label": {
+            "tr": "35 cl Şişe",
+            "en": "35 cl Bottle",
+            "ru": "Бутылка 0,35 л"
+          },
+          "price": 2700
+        },
+        {
+          "label": {
+            "tr": "70 cl Şişe",
+            "en": "70 cl Bottle",
+            "ru": "Бутылка 0,7 л"
+          },
+          "price": 4500
+        }
+      ],
+      "img": "uploads/4321a3c9dc7181dce96c6d1322393d64.webp",
+      "allergens": [
+        "gluten"
+      ],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "viski-2",
+      "cat": "viski",
+      "name": {
+        "tr": "Black Label",
+        "en": "Black Label",
+        "ru": "Black Label"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": null,
+      "variants": [
+        {
+          "label": {
+            "tr": "Tek Kadeh",
+            "en": "Single",
+            "ru": "Одинарная порция"
+          },
+          "price": 500
+        },
+        {
+          "label": {
+            "tr": "Double Kadeh",
+            "en": "Double",
+            "ru": "Двойная порция"
+          },
+          "price": 700
+        },
+        {
+          "label": {
+            "tr": "35 cl Şişe",
+            "en": "35 cl Bottle",
+            "ru": "Бутылка 0,35 л"
+          },
+          "price": 3000
+        },
+        {
+          "label": {
+            "tr": "70 cl Şişe",
+            "en": "70 cl Bottle",
+            "ru": "Бутылка 0,7 л"
+          },
+          "price": 5500
+        }
+      ],
+      "img": "uploads/fed8eb5e7a21d96748fc58dce74833c5.webp",
+      "allergens": [
+        "gluten"
+      ],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "viski-3",
+      "cat": "viski",
+      "name": {
+        "tr": "Chivas Regal",
+        "en": "Chivas Regal",
+        "ru": "Chivas Regal"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": null,
+      "variants": [
+        {
+          "label": {
+            "tr": "Tek Kadeh",
+            "en": "Single",
+            "ru": "Одинарная порция"
+          },
+          "price": 500
+        },
+        {
+          "label": {
+            "tr": "Double Kadeh",
+            "en": "Double",
+            "ru": "Двойная порция"
+          },
+          "price": 700
+        },
+        {
+          "label": {
+            "tr": "35 cl Şişe",
+            "en": "35 cl Bottle",
+            "ru": "Бутылка 0,35 л"
+          },
+          "price": 3000
+        },
+        {
+          "label": {
+            "tr": "70 cl Şişe",
+            "en": "70 cl Bottle",
+            "ru": "Бутылка 0,7 л"
+          },
+          "price": 5500
+        }
+      ],
+      "img": "uploads/d2a072379281495e1673b15eff2a82a6.webp",
+      "allergens": [
+        "gluten"
+      ],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "viski-4",
+      "cat": "viski",
+      "name": {
+        "tr": "Jack Daniel’s",
+        "en": "Jack Daniel’s",
+        "ru": "Jack Daniel’s"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": null,
+      "variants": [
+        {
+          "label": {
+            "tr": "Tek Kadeh",
+            "en": "Single",
+            "ru": "Одинарная порция"
+          },
+          "price": 500
+        },
+        {
+          "label": {
+            "tr": "Double Kadeh",
+            "en": "Double",
+            "ru": "Двойная порция"
+          },
+          "price": 700
+        },
+        {
+          "label": {
+            "tr": "35 cl Şişe",
+            "en": "35 cl Bottle",
+            "ru": "Бутылка 0,35 л"
+          },
+          "price": 3000
+        },
+        {
+          "label": {
+            "tr": "70 cl Şişe",
+            "en": "70 cl Bottle",
+            "ru": "Бутылка 0,7 л"
+          },
+          "price": 5500
+        }
+      ],
+      "img": "uploads/2fe585beec7caff9b5361dc6ebdd9e1f.webp",
+      "allergens": [
+        "gluten"
+      ],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "viski-5",
+      "cat": "viski",
+      "name": {
+        "tr": "Jack Daniel’s Honey",
+        "en": "Jack Daniel’s Honey",
+        "ru": "Jack Daniel’s Honey"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": null,
+      "variants": [
+        {
+          "label": {
+            "tr": "Tek Kadeh",
+            "en": "Single",
+            "ru": "Одинарная порция"
+          },
+          "price": 500
+        },
+        {
+          "label": {
+            "tr": "Double Kadeh",
+            "en": "Double",
+            "ru": "Двойная порция"
+          },
+          "price": 700
+        },
+        {
+          "label": {
+            "tr": "70 cl Şişe",
+            "en": "70 cl Bottle",
+            "ru": "Бутылка 0,7 л"
+          },
+          "price": 6500
+        }
+      ],
+      "img": "uploads/770c0ebf7ba44009b5f43d3c555ed851.webp",
+      "allergens": [
+        "gluten"
+      ],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "viski-6",
+      "cat": "viski",
+      "name": {
+        "tr": "Gentleman Jack",
+        "en": "Gentleman Jack",
+        "ru": "Gentleman Jack"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": null,
+      "variants": [
+        {
+          "label": {
+            "tr": "Tek Kadeh",
+            "en": "Single",
+            "ru": "Одинарная порция"
+          },
+          "price": 500
+        },
+        {
+          "label": {
+            "tr": "Double Kadeh",
+            "en": "Double",
+            "ru": "Двойная порция"
+          },
+          "price": 700
+        },
+        {
+          "label": {
+            "tr": "70 cl Şişe",
+            "en": "70 cl Bottle",
+            "ru": "Бутылка 0,7 л"
+          },
+          "price": 6500
+        }
+      ],
+      "img": "uploads/1de4dee07cd2acfa81d70ee2e194183c.webp",
+      "allergens": [
+        "gluten"
+      ],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "tekila-1",
+      "cat": "tekila",
+      "name": {
+        "tr": "Olmeca",
+        "en": "Olmeca",
+        "ru": "Olmeca"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": null,
+      "variants": [
+        {
+          "label": {
+            "tr": "Shot",
+            "en": "Shot",
+            "ru": "Шот"
+          },
+          "price": 300
+        },
+        {
+          "label": {
+            "tr": "35 cl Şişe",
+            "en": "35 cl Bottle",
+            "ru": "Бутылка 0,35 л"
+          },
+          "price": 2500
+        },
+        {
+          "label": {
+            "tr": "70 cl Şişe",
+            "en": "70 cl Bottle",
+            "ru": "Бутылка 0,7 л"
+          },
+          "price": 4500
+        }
+      ],
+      "img": "uploads/af8eb43f845ebb3f2ce5a54eb07f3be6.webp",
+      "allergens": [],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "tekila-2",
+      "cat": "tekila",
+      "name": {
+        "tr": "Votka Shot",
+        "en": "Vodka Shot",
+        "ru": "Шот водки"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 300,
+      "variants": [],
+      "img": "uploads/d530eda5856a827f40d279987b81d588.webp",
+      "allergens": [],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "tekila-3",
+      "cat": "tekila",
+      "name": {
+        "tr": "Viski Shot",
+        "en": "Whiskey Shot",
+        "ru": "Шот виски"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 350,
+      "variants": [],
+      "img": "uploads/f1884da86503e356eb846b27c602b96c.webp",
+      "allergens": [
+        "gluten"
+      ],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "tekila-4",
+      "cat": "tekila",
+      "name": {
+        "tr": "Jägermeister Shot",
+        "en": "Jägermeister Shot",
+        "ru": "Шот Jägermeister"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 300,
+      "variants": [],
+      "img": "uploads/da75f7ac2ee32e736c262b9d66b4e438.webp",
+      "allergens": [],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "tekila-5",
+      "cat": "tekila",
+      "name": {
+        "tr": "B-52 Shot",
+        "en": "B-52 Shot",
+        "ru": "Шот B-52"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 350,
+      "variants": [],
+      "img": "uploads/375ae9d980f4587ace3674adcce7c120.webp",
+      "allergens": [
+        "milk"
+      ],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "rom-1",
+      "cat": "rom",
+      "name": {
+        "tr": "Captain Morgan",
+        "en": "Captain Morgan",
+        "ru": "Captain Morgan"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 650,
+      "variants": [],
+      "img": "uploads/e8decf80585b9b4db6cf6b8c8c163f23.webp",
+      "allergens": [],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "rom-2",
+      "cat": "rom",
+      "name": {
+        "tr": "Havana Club",
+        "en": "Havana Club",
+        "ru": "Havana Club"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 650,
+      "variants": [],
+      "img": "uploads/08f1404ffe3b0f646b1723d05a1726d3.webp",
+      "allergens": [],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "rom-3",
+      "cat": "rom",
+      "name": {
+        "tr": "Bacardi",
+        "en": "Bacardi",
+        "ru": "Bacardi"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 650,
+      "variants": [],
+      "img": "uploads/11d99edd24faec7bd510d562c7e10362.webp",
+      "allergens": [],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "tatli-1",
+      "cat": "tatli",
+      "name": {
+        "tr": "Fırın Helva",
+        "en": "Baked Halva",
+        "ru": "Запечённая халва"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 300,
+      "variants": [],
+      "img": "uploads/d7a2f864abedadcbaea5f59528173c0a.webp",
+      "allergens": [
+        "gluten",
+        "milk",
+        "nuts",
+        "sesame"
+      ],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "tatli-2",
+      "cat": "tatli",
+      "name": {
+        "tr": "Künefe",
+        "en": "Künefe",
+        "ru": "Кюнефе"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 350,
+      "variants": [],
+      "img": "uploads/2d977b293ecba8ec4c64b35f3b75528a.webp",
+      "allergens": [
+        "gluten",
+        "milk",
+        "nuts"
+      ],
+      "tags": [
+        "chef"
+      ],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "tatli-3",
+      "cat": "tatli",
+      "name": {
+        "tr": "Cheesecake",
+        "en": "Cheesecake",
+        "ru": "Чизкейк"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 300,
+      "variants": [],
+      "img": "uploads/3c8a717ddfffe5fc4587b514dc9edd9b.webp",
+      "allergens": [
+        "gluten",
+        "milk",
+        "egg"
+      ],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "meyve-1",
+      "cat": "meyve",
+      "name": {
+        "tr": "Meyve Tabağı",
+        "en": "Mixed Fruit Plate",
+        "ru": "Фруктовая тарелка"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 400,
+      "variants": [],
+      "img": "uploads/feff6507629b0d7b03bc2c6fe0ce5778.webp",
+      "allergens": [],
+      "tags": [
+        "vegan"
+      ],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "meyve-2",
+      "cat": "meyve",
+      "name": {
+        "tr": "Karpuz Tabağı",
+        "en": "Watermelon Plate",
+        "ru": "Тарелка арбуза"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 350,
+      "variants": [],
+      "img": "uploads/ed14515dfb52033ca8f58c2b28cf0799.webp",
+      "allergens": [],
+      "tags": [
+        "vegan"
+      ],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "meyve-3",
+      "cat": "meyve",
+      "name": {
+        "tr": "Kavun Tabağı",
+        "en": "Melon Plate",
+        "ru": "Тарелка дыни"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 350,
+      "variants": [],
+      "img": "uploads/2551ecd62acc31631d361fa0cd981cf9.webp",
+      "allergens": [],
+      "tags": [
+        "vegan"
+      ],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "cerez-1",
+      "cat": "cerez",
+      "name": {
+        "tr": "Karışık Çerez",
+        "en": "Mixed Nuts",
+        "ru": "Ореховое ассорти"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 150,
+      "variants": [],
+      "img": "uploads/a1400257689b45922302bb613c3308df.webp",
+      "allergens": [
+        "nuts",
+        "peanut"
+      ],
+      "tags": [
+        "vegan"
+      ],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "cerez-2",
+      "cat": "cerez",
+      "name": {
+        "tr": "Lüks Çerez",
+        "en": "Deluxe Nuts",
+        "ru": "Ореховое ассорти люкс"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 200,
+      "variants": [],
+      "img": "uploads/bc7e42bb6a5d2b93468c682cb5ba846e.webp",
+      "allergens": [
+        "nuts",
+        "peanut"
+      ],
+      "tags": [
+        "vegan"
+      ],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "nargile-1",
+      "cat": "nargile",
+      "name": {
+        "tr": "Nargile",
+        "en": "Shisha",
+        "ru": "Кальян"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 600,
+      "variants": [],
+      "img": "uploads/297e93f8bbda3dec847e7fe3f2ed3c2a.webp",
+      "allergens": [],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "nargile-2",
+      "cat": "nargile",
+      "name": {
+        "tr": "Special Nargile",
+        "en": "Special Shisha",
+        "ru": "Особый кальян"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 800,
+      "variants": [],
+      "img": "uploads/297e93f8bbda3dec847e7fe3f2ed3c2a.webp",
+      "allergens": [],
+      "tags": [
+        "chef"
+      ],
+      "active": true,
+      "soldOut": false
+    },
+    {
+      "id": "nargile-3",
+      "cat": "nargile",
+      "name": {
+        "tr": "Lüle Değişimi",
+        "en": "Bowl Change",
+        "ru": "Замена чаши"
+      },
+      "desc": {
+        "tr": "",
+        "en": ""
+      },
+      "price": 300,
+      "variants": [],
+      "img": "uploads/297e93f8bbda3dec847e7fe3f2ed3c2a.webp",
+      "allergens": [],
+      "tags": [],
+      "active": true,
+      "soldOut": false
+    }
+  ],
+  "allergens": [
+    {
+      "id": "gluten",
+      "icon": "🌾",
+      "name": {
+        "tr": "Gluten",
+        "en": "Gluten",
+        "ru": "Глютен"
+      }
+    },
+    {
+      "id": "crustacean",
+      "icon": "🦐",
+      "name": {
+        "tr": "Kabuklu Deniz Ürünleri",
+        "en": "Crustaceans",
+        "ru": "Ракообразные"
+      }
+    },
+    {
+      "id": "egg",
+      "icon": "🥚",
+      "name": {
+        "tr": "Yumurta",
+        "en": "Egg",
+        "ru": "Яйца"
+      }
+    },
+    {
+      "id": "fish",
+      "icon": "🐟",
+      "name": {
+        "tr": "Balık",
+        "en": "Fish",
+        "ru": "Рыба"
+      }
+    },
+    {
+      "id": "peanut",
+      "icon": "🥜",
+      "name": {
+        "tr": "Yer Fıstığı",
+        "en": "Peanuts",
+        "ru": "Арахис"
+      }
+    },
+    {
+      "id": "soy",
+      "icon": "🫘",
+      "name": {
+        "tr": "Soya",
+        "en": "Soy",
+        "ru": "Соя"
+      }
+    },
+    {
+      "id": "milk",
+      "icon": "🥛",
+      "name": {
+        "tr": "Süt / Laktoz",
+        "en": "Milk / Lactose",
+        "ru": "Молоко / лактоза"
+      }
+    },
+    {
+      "id": "nuts",
+      "icon": "🌰",
+      "name": {
+        "tr": "Sert Kabuklu Yemişler",
+        "en": "Tree Nuts",
+        "ru": "Орехи"
+      }
+    },
+    {
+      "id": "celery",
+      "icon": "🥬",
+      "name": {
+        "tr": "Kereviz",
+        "en": "Celery",
+        "ru": "Сельдерей"
+      }
+    },
+    {
+      "id": "mustard",
+      "icon": "🫙",
+      "name": {
+        "tr": "Hardal",
+        "en": "Mustard",
+        "ru": "Горчица"
+      }
+    },
+    {
+      "id": "sesame",
+      "icon": "🥯",
+      "name": {
+        "tr": "Susam",
+        "en": "Sesame",
+        "ru": "Кунжут"
+      }
+    },
+    {
+      "id": "sulphite",
+      "icon": "🍷",
+      "name": {
+        "tr": "Sülfit",
+        "en": "Sulphites",
+        "ru": "Сульфиты"
+      }
+    },
+    {
+      "id": "lupin",
+      "icon": "🌼",
+      "name": {
+        "tr": "Acı Bakla",
+        "en": "Lupin",
+        "ru": "Люпин"
+      }
+    },
+    {
+      "id": "mollusc",
+      "icon": "🦑",
+      "name": {
+        "tr": "Yumuşakçalar",
+        "en": "Molluscs",
+        "ru": "Моллюски"
+      }
+    }
+  ],
+  "updatedAt": "2026-10-10T00:31:06.242Z"
+}

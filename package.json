@@ -1,0 +1,13 @@
+{
+  "name": "barcode-beach-qr-menu",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Barcode Beach & Restaurant (Boğazkent, Belek) için QR menü ve yönetim paneli",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

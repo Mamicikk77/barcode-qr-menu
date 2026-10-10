@@ -146,8 +146,9 @@
       `<button class="w-btn ripple" data-action="wifi"><span class="w-ic wf">${icon.wifi}</span>${u().wifi}</button>`,
       s.mapsUrl && `<a class="w-btn ripple" href="${esc(s.mapsUrl)}" target="_blank" rel="noopener"><span class="w-ic gm">${icon.star}</span>${u().review}</a>`,
     ].filter(Boolean);
+    const fxOn = !!(s.welcomeBg && s.welcomeFx && s.welcomeFx.enabled && window.WelcomeFx);
     app.innerHTML = `<div class="view welcome ${dir === 'back' ? 'back' : ''} ${s.welcomeBg ? 'has-photo' : ''}" ${s.welcomeBg ? `style="--wbg:url('${esc(absUrl(s.welcomeBg))}')"` : ''}>
-      <div class="w-bg" aria-hidden="true"><div class="hero-sun"></div><div class="hero-glint"></div></div>
+      <div class="w-bg" aria-hidden="true"><div class="hero-sun"></div><div class="hero-glint"></div>${fxOn ? '<canvas class="w-fx"></canvas>' : ''}</div>
       <div class="w-top"><span class="hero-badge">${icon.sun}${esc(tx(s.location))}</span>${langHtml()}</div>
       <div class="w-center">
         <p class="w-hello">${u().welcomeHint}</p>
@@ -160,6 +161,7 @@
         <div class="w-links">${links.join('')}</div>
       </div>
     </div>`;
+    if (fxOn) window.WelcomeFx.start($('.w-fx'), s.welcomeFx);
   }
 
   function openWifi() {

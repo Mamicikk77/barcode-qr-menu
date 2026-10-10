@@ -30,7 +30,42 @@
     },
     "whatsapp": "905066092261",
     "mapsUrl": "https://maps.app.goo.gl/i3M2bUgZC9LvrJLF9",
-    "welcomeBg": "uploads/welcome-bg.webp"
+    "welcomeBg": "uploads/welcome-bg.webp",
+    "welcomeFx": {
+      "enabled": true,
+      "size": [
+        1024,
+        1536
+      ],
+      "mouth": [
+        322,
+        614
+      ],
+      "wisp": [
+        500,
+        690
+      ],
+      "drinks": [
+        [
+          786,
+          352,
+          836,
+          420
+        ],
+        [
+          652,
+          806,
+          742,
+          948
+        ]
+      ],
+      "sea": [
+        800,
+        772,
+        1024,
+        880
+      ]
+    }
   },
   "groups": [
     {

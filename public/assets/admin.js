@@ -921,6 +921,8 @@
               <label class="field"><span>WhatsApp numarası</span><input class="input" name="whatsapp" value="${esc(s.whatsapp)}" placeholder="905xxxxxxxxx"><small>Ülke koduyla, boşluksuz (ör. 905066092261)</small></label>
               <label class="field"><span>Instagram kullanıcı adı</span><input class="input" name="instagram" value="${esc(s.instagram)}" placeholder="barcodebeachbogazkent"></label>
               <label class="field"><span>Google Maps / değerlendirme linki</span><input class="input" name="mapsUrl" value="${esc(s.mapsUrl)}" placeholder="https://g.page/r/…/review"></label>
+              ${s.welcomeFx ? `<label class="switch" style="margin-top:4px"><input type="checkbox" name="fx" ${s.welcomeFx.enabled ? 'checked' : ''}><span class="track"></span>Hareketli efektler (nargile dumanı, kabarcıklar, deniz)</label>
+              <p class="hint" style="margin:6px 0 0">Efektler mevcut fotoğrafa göre konumlandı; fotoğrafı değiştirirseniz otomatik kapanır.</p>` : ''}
             </div>
           </div>
           <div class="grid2">
@@ -979,6 +981,11 @@
     const form = $('#sform');
     const apply = () => {
       const g = n => val(form, n);
+      if (s.welcomeFx) {
+        // Fotoğraf değiştiyse efekt konumları artık tutmaz: kapat
+        if (form.welcomeBg.value !== (s.welcomeBg || '')) { s.welcomeFx.enabled = false; if (form.fx) form.fx.checked = false; }
+        else if (form.fx) s.welcomeFx.enabled = form.fx.checked;
+      }
       Object.assign(s, {
         name: g('name') || 'Barcode', currency: g('currency') || '₺',
         subtitle: tri(form, 'subtitle'), location: tri(form, 'location'), welcome: tri(form, 'welcome'),

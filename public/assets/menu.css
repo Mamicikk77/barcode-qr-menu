@@ -69,7 +69,8 @@
   padding: calc(14px + env(safe-area-inset-top)) 18px calc(26px + env(safe-area-inset-bottom)); }
 .w-bg { position: absolute; inset: 0; z-index: -1; background: linear-gradient(180deg, #0b3e57 0%, #17708a 40%, #3fb2bd 64%, #f3d9b1 88%, #f7c79a 100%); }
 .welcome.has-photo .w-bg { background: var(--wbg) center 30% / cover no-repeat; animation: kenburns 24s ease-in-out infinite alternate; }
-.welcome.has-photo .w-bg > * { display: none; }
+.welcome.has-photo .w-bg > :not(.w-fx) { display: none; }
+.w-fx { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; }
 /* Fotoğraflıyken yazılar gökyüzüne (üste), butonlar alta: ortadaki görsel açık kalır */
 .welcome.has-photo .w-center { justify-content: flex-start; padding-top: 3dvh; }
 .welcome.has-photo .welcome-line { display: none; }
